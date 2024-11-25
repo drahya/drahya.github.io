@@ -132,7 +132,7 @@ p {
 /* Showcase Section */
 .showcase {
     text-align: center;
-    background-image: url("../photography/last film photos/new folder/1 (19).jpg");
+    background-image: url("images/photography/last film photo3/1 (19).webp");
     padding: 25px 20px;
     background: linear-gradient(45deg, #4e4e4e, #303030);
     color: #fff;
@@ -169,7 +169,7 @@ p {
 }
 
 .container {
-    background-image: url("images/photography/last film photos/1/1(22).webp");
+    background-image: url("images/photography/last film photos/1(22).webp");
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -262,7 +262,7 @@ footer {
 
 /* Showcase Section */
 #projects-showcase {
-    background-image: url("images/photography/last film photos/1/1 (6).jpg");
+    background-image: url("images/photography/last film photo3/1 (19).webp");
     background-size: cover;
     padding: 50px 20px;
     background-color: #000000;
@@ -664,7 +664,7 @@ footer {
     position: absolute;
     top: 20px;
     right: 30px;
-    color: #fff;
+    color: #000000;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
