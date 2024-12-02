@@ -45,8 +45,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #8963ba;
-    color: #121212;
+    background-color: #ff0000;
+    color: #ffffff;
     border-radius: 5px;
 }
 
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .projects-tags a:hover {
-    background-color: #8963ba;
+    background-color: #e1ff00;
 }
 
 
@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 .parallax-background {
-    background-image: url("images/photography/last film photos/gare2.webp");
+    background-image: url("images/photography/last film photos/1 (43).jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -169,7 +169,7 @@ p {
 }
 
 .container {
-    background-image: url("images/photography/last film photos/1(22).webp");
+    background-image: url("images/photography/last film photos/1 (17).jpg");
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ p {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 15px;
-    color: #8963ba;
+    color:#ffff00;
 }
 
 ul {
@@ -230,7 +230,7 @@ ul li {
 
 .contact-info a {
     display: inline-block;
-    background-color: #ff0000;
+    background-color: #ff000094;
     color: #000000;
     padding: 10px 15px;
     margin: 5px;
@@ -240,9 +240,10 @@ ul li {
 
 
 footer {
-    background-color: #000000;
+   
+    background-image: url("images/photography/last film photos/1 (26).jpg");
     text-align: center;
-    margin-top: 5px;
+   
     padding: 20px 0;
    font-weight: 100;
   
@@ -262,8 +263,8 @@ footer {
 
 /* Showcase Section */
 #projects-showcase {
-    background-image: url("images/photography/last film photo3/1 (19).webp");
-    background-size: cover;
+    background-image: url("images/photography/last film photos/1 (34).jpg");
+    background-size:contain;
     padding: 50px 20px;
     background-color: #000000;
     text-align: center;
@@ -285,11 +286,11 @@ footer {
 
 .project {
   
-    border: 1px solid #000000;
+    border: 1px solid #00000017;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: fit-content;
+    width: auto;
     height: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -332,164 +333,8 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*subpages*/
-/* General Styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -498,189 +343,293 @@ footer {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #121212;
+    color: #f1f1f1;
     line-height: 1.6;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Header */
-header {
+/* Header Navigation */
+header nav {
+    display: flex;
+    justify-content: center;
     background-color: #000000;
-    padding: 20px 0;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-header nav ul li {
-    display: inline-block;
+header nav a {
+    color: #ffffff;
     margin: 0 20px;
-}
-
-header nav ul li a {
-    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
     font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
-/* Section: Projects Introduction */
-.projects-intro {
-    background-color: #f5f5f5;
-    padding: 40px 0;
+header nav a:hover {
+    color: #ffffff;
+}
+
+/* Project Intro Section */
+.project-intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #181818;
+}
+
+.project-intro h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.project-intro p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+/* Project Gallery */
+.project-gallery {
+    padding: 40px 20px;
+    background-color: #121212;
+}
+
+.project-gallery h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.projects-intro .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.projects-intro h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
-
-.projects-intro p {
-    font-size: 1.1rem;
-    color: #666;
-}
-
-/* Section: Projects Gallery */
-.projects-gallery {
-    
-    padding: 60px 0;
-    background-color: #000000;
-}
-
-.projects-gallery .container {
-    max-width: 1200px;
-    margin: 0 auto;
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 0 20px;
-}
-
-/* Individual Project Card */
-.project-card {
-    background-color: #000000;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Project Gallery (images) */
-.project-gallery {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
+    gap: 20px;
+    justify-content: center;
 }
 
 .gallery-img {
-    width: 32%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+    width: calc(33.33% - 20px);
+    height: auto;
+    border-radius: 5px;
+  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery-img:hover {
     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
-/* Project Information */
-.project-info {
-    padding: 20px;
+
+.gallery-img2 {
+    width: calc(25% - 20px);
+    height: fit-content;
+    border-radius: 5px;
+    gap: 50px;
+    border: 2px solid #444444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-info h2 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 10px;
+
+.gallery-img3 {
+    width: 20%;
+    height: min-content;
+    border-radius: 5px;
+    grid-template-columns:auto;
+    grid-auto-flow:row;
+    gap: 50px;
+    border: 2px solid #444444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-info p {
-    font-size: 1rem;
-    color: #555;
+
+.gudenough-img {
+    width: 900px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #444444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Project Details Section */
+.project-details {
+    padding: 40px 20px;
+    background-color: #181818;
+    color: #cccccc;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .project-card {
-        width: 100%;
-    }
+.project-details h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
-    .gallery-img {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .project-gallery {
-        flex-direction: column;
-    }
+.project-details p {
+    font-size: 1.2rem;
+    line-height: 1.8;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.9rem;
 }
 
-/* Lightbox Styles */
-.lightbox {
-    display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
-    justify-content: center;
-    align-items: center;
-}
 
-.lightbox-img {
-    max-width: 90%;
-    max-height: 80%;
-    margin: auto;
-    display: block;
-    border-radius: 8px;
-}
 
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #000000;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1001;
-}
 
-/* Hover Effects for Images */
-.gallery-img {
-    width: 32%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
 
-.gallery-img:hover {
-    transform: scale(1.05);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
