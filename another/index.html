@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
+  <title>portfolio de Sara</title>
+
+  <header class="header">
+    <h1>Sara Asadnia</h1>
+  </header>
+  
+
+  
+  <style>
+    /* box sizing */
+    *{
+      box-sizing: border-box;
+    }
+
+    :root {
+      overscroll-behavior: none;
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+    
+    html{
+      scroll-behavior: smooth;
+    }
+
+
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: "Astloch", sans-serif;
+    }
+   
+
+    .projets{
+      /* overflow: hidden; */
+      width: 100%;
+      min-height: 100vh;
+      position: absolute;
+      top: 0;
+      /* display: grid;
+      grid-template-columns: repeat(auto-fill, 200px);
+      gap:24px; */
+    }
+
+    .projet{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 200px);
+      gap:24px;
+      position: flex;
+      /* top:-50px;
+      left: -50px; */
+      width: 300px;
+      height:300px;
+      background: rgb(255, 255, 255);  
+      cursor: pointer;
+      /* overflow:hidden;
+      height:10px;
+      border-radius: 5px;
+      background: #f00; */
+    }
+
+    .projet h1, .projet p{
+      display: none;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .fixed{
+      position: fixed;
+    }
+    .projets.fixed{
+      top:100px;
+    }
+    .overlay{
+      position: absolute;
+      width: 100%;
+      min-height: 100vh;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 48px;
+      top: 0;
+      left:0; 
+   
+    }
+    .close{
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      width: 48px;
+      height: 48px;
+      border-style: groove;
+      border: #000;
+      border-width: 0 0 0 100px;
+      text-align: center;
+      font-family: Arial;
+      line-height: 48px;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 48px;
+      background: #000;
+      border-radius: 24px;
+    }
+
+    .wrap{
+      width:100%;
+    }
+
+    .fiche{
+      margin: 0px auto;
+      max-width: 640px;
+      background: #000000;
+      padding: 0 20px 20px;  
+    }
+
+    .fiche img{
+      margin:0 -20px 20px;
+      width: calc(100% + 40px);
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <div class="projets"></div>
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7"></script>
+  <!-- motionPath -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/ScrollSmoother.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomEase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomBounce.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomWiggle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/DrawSVGPlugin.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.148.0/examples/js/loaders/FontLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.148.0/examples/js/geometries/TextGeometry.js"></script>
+  <script type="module" src="main.js"></script>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+  <style>
+    .cursor-cat {
+      position: absolute;
+      width: 80px;
+      height: auto;
+      pointer-events: none;
+      z-index: 1000;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<!--cat  -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const cat = document.createElement("img");
+    cat.src = "img/cat4.gif"; // update path if needed
+    cat.alt = "Cat Cursor";
+    cat.classList.add("cursor-cat");
+    document.body.appendChild(cat);
+
+    let mouseX = 0;
+    let mouseY = 0;
+    let catX = 0;
+    let catY = 0;
+
+    document.addEventListener("mousemove", (e) => {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+    });
+
+    function animate() {
+      // Ease the cat's position toward the mouse
+      catX += (mouseX - catX) * 0.1;
+      catY += (mouseY - catY) * 0.1;
+
+      cat.style.left = `${catX}px`;
+      cat.style.top = `${catY}px`;
+
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  });
+</script>
+
+
+</body>
+</html>
+
+
+
+
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Falling Snow: Particle Wonderland</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
