@@ -1,224 +1,286 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
-  <title>portfolio de Sara</title>
-
-  <header class="header">
-    <h1>Sara Asadnia</h1>
-  </header>
-  
-
-  
-  <style>
-    /* box sizing */
-    *{
-      box-sizing: border-box;
-    }
-
-    :root {
-      overscroll-behavior: none;
-    }
-
-    *{
-      box-sizing: border-box;
-    }
-    
-    html{
-      scroll-behavior: smooth;
-    }
-
-
-    body{
-      margin: 0;
-      padding: 0;
-      font-family: "Astloch", sans-serif;
-    }
-   
-
-    .projets{
-      /* overflow: hidden; */
-      width: 100%;
-      min-height: 100vh;
-      position: absolute;
-      top: 0;
-      /* display: grid;
-      grid-template-columns: repeat(auto-fill, 200px);
-      gap:24px; */
-    }
-
-    .projet{
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 200px);
-      gap:24px;
-      position: flex;
-      /* top:-50px;
-      left: -50px; */
-      width: 300px;
-      height:300px;
-      background: rgb(255, 255, 255);  
-      cursor: pointer;
-      /* overflow:hidden;
-      height:10px;
-      border-radius: 5px;
-      background: #f00; */
-    }
-
-    .projet h1, .projet p{
-      display: none;
-    }
-
-    img{
-      width: 100%;
-      height: auto;
-    }
-    .fixed{
-      position: fixed;
-    }
-    .projets.fixed{
-      top:100px;
-    }
-    .overlay{
-      position: absolute;
-      width: 100%;
-      min-height: 100vh;
-      z-index: 9999;
-      background-color: rgba(0, 0, 0, 0.9);
-      padding: 48px;
-      top: 0;
-      left:0; 
-   
-    }
-    .close{
-      position: fixed;
-      top: 24px;
-      right: 24px;
-      width: 48px;
-      height: 48px;
-      border-style: groove;
-      border: #000;
-      border-width: 0 0 0 100px;
-      text-align: center;
-      font-family: Arial;
-      line-height: 48px;
-      color: #ffffff;
-      cursor: pointer;
-      font-size: 48px;
-      background: #000;
-      border-radius: 24px;
-    }
-
-    .wrap{
-      width:100%;
-    }
-
-    .fiche{
-      margin: 0px auto;
-      max-width: 640px;
-      background: #000000;
-      padding: 0 20px 20px;  
-    }
-
-    .fiche img{
-      margin:0 -20px 20px;
-      width: calc(100% + 40px);
-    }
-
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
 
 
-  <div class="projets"></div>
-  <!-- gsap -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7"></script>
-  <!-- motionPath -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/MotionPathPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/Draggable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/ScrollTrigger.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/ScrollSmoother.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/Observer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomEase.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomBounce.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/CustomWiggle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap/dist/DrawSVGPlugin.min.js"></script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.148.0/examples/js/loaders/FontLoader.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.148.0/examples/js/geometries/TextGeometry.js"></script>
-  <script type="module" src="main.js"></script>
-  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+<main>
 
-  <style>
-    .cursor-cat {
-      position: absolute;
-      width: 80px;
-      height: auto;
-      pointer-events: none;
-      z-index: 1000;
-      transform: translate(-50%, -50%);
-    }
-  </style>
-</head>
+<!-- Home Section -->
+<section id="home" class="parallax-container">
+<div class="parallax-background"></div>
+<div class="content">
+<a href="index.html"></a>
+<h1>Welcome to My Portfolio</h1>
 
-<!--cat  -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const cat = document.createElement("img");
-    cat.src = "img/cat4.gif"; // update path if needed
-    cat.alt = "Cat Cursor";
-    cat.classList.add("cursor-cat");
-    document.body.appendChild(cat);
-
-    let mouseX = 0;
-    let mouseY = 0;
-    let catX = 0;
-    let catY = 0;
-
-    document.addEventListener("mousemove", (e) => {
-      mouseX = e.pageX;
-      mouseY = e.pageY;
-    });
-
-    function animate() {
-      // Ease the cat's position toward the mouse
-      catX += (mouseX - catX) * 0.1;
-      catY += (mouseY - catY) * 0.1;
-
-      cat.style.left = `${catX}px`;
-      cat.style.top = `${catY}px`;
-
-      requestAnimationFrame(animate);
-    }
-
-    animate();
-  });
-</script>
+<h2>I am Sara Asadnia,</h2>
+<p>an artist based in Amiens, France. I am passionate about creating visually
+pleasing designs and solving problems through creativity and innovation.</p>
+</div>
+</section>
 
 
-</body>
-</html>
+<!-- Showcase Section -->
+
+
+<!-- Experience, Expertise, and Education Section -->
+<section class="experience">
+<div class="container">
+<div class="education">
+<h1>Education</h1>
+<h3>2020-2021</h3>
+<p>Licence in Psychology at University of Science and Culture, Tehran</p>
+<h3>2021-2023</h3>
+<p>Licence in Painting at University of Science and Culture, Tehran</p>
+<h3>2023-now</h3>
+<p>Licence in Graphic Design at ESAD (DNA-Option Design Graphique)</p>
+</div>
+
+<div class="experiences">
+<h1>Experience</h1>
+<h3>2019-2020</h3>
+<p>Video Editor at Megop Education</p>
+<h3>2022-now</h3>
+<p>freelance Photography</p>
+<h3>2024-now</h3>
+<p>president of the international club at Ecole superieur d'art et design</p>
+
+
+</div>
+
+<div class="skills">
+<h1>Skills</h1>
+<ul>
+<li>InDesign</li>
+<li>Photoshop</li>
+<li>Illustrator</li>
+<li>Adobe Premiere Pro</li>
+<li>After Effects</li>
+
+</ul>
+<div class="skills-icons">
+<img src="images/icones/indesign.png" alt="InDesign" height="30" width="30">
+<img src="images/icones/photoshop.png" alt="Photoshop" height="30" width="30">
+<img src="images/icones/illustrator.png" alt="Illustrator" height="30" width="30">
+<img src="images/icones/premiere-pro.png" alt="Premiere Pro" height="30" width="30">
+<img src="images/icones/after-effects.png" alt="After Effects" height="30" width="30">
+
+</div>
+</div>
+
+<div class="passions">
+<h1>Passions</h1>
+<ul>
+<li>Handmade Creation</li>
+<li>Video Games</li>
+<li>Cinema</li>
+<li>Photography</li>
+<li>Pottery</li>
+</ul>
+</div>
+
+<div class="languages">
+<h1>Languages</h1>
+<ul>
+<li>English</li>
+<li>French</li>
+<li>Persian</li>
+</ul>
+</div>
+</div>
+</section>
 
 
 
+<!-- Projects Showcase Section -->
+<section id="projects-showcase">
 
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Falling Snow: Particle Wonderland</title>
-  <link rel="stylesheet" href="./style.css">
+<div class="projects-grid">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
+<!-- Project 2 -->
+<div class="project">
+<a href="bookcover.html" class="project-link">
+<img src="images/graphic design/book cover/disparition 1.jpg" alt="book cover">
+</a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
 
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js'></script><script  src="./script.js"></script>
+</div>
+</div>
+
+<!-- Project 1 -->
+<div class="project">
+<a href="coffret.html" class="project-link">
+<img src="images\graphic design\coffretartist\1 (9).jpg" alt="coffret"></a>
+<div class="project-info">
+<h3>artist's box</h3>
+<p>editorial object on Marc Riboud</p>
+
+</div>
+</div>
+
+
+<div class="project">
+<a href="revue.html" class="project-link">
+<img src="images/typography/REVUE CINEMA/2mocks.jpg" alt="revue"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+<!-- Project 2 -->
+<div class="project">
+<a href="beforeafter.html" class="project-link">
+            <img src="images/photography/photo/before after/1 (1).jpg" alt="beforeafter"></a>
+            <img src="images/photography/before after/1 (1).jpg" alt="beforeafter"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+<!-- Project 2 -->
+<div class="project">
+<a href="posters.html" class="project-link">
+<img src="images/graphic design/posters/GOLI1-4.jpg" alt="posters"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+<!-- Project 2 -->
+<div class="project"> 
+<a href="indatable.html" class="project-link">
+        <img src="images/photography/photo/indatable/1 (1).jpg" alt="indatable"> </a>
+        <img src="images/photography/indatable/1 (1).jpg" alt="indatable"> </a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+
+<!-- Project 2 -->
+<div class="project"> 
+<a href="branly.html" class="project-link">
+                <img src="images/photography/photo/branly/1 (14).JPG" alt="branly"></a>
+                <img src="images/photography/branly/1 (14).JPG" alt="branly"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+<!-- Project 2 -->
+<div class="project">
+<a href="personal-photos.html" class="project-link">
+            <img src="images/photography/photo/1 (5).JPG" alt="personal photos"></a>
+            <img src="images/photography/1 (5).JPG" alt="personal photos"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+<!-- Project 2 -->
+<div class="project">
+<a href="filmphotos.html" class="project-link">
+<img src="images\photography\last film photos\1 (43).jpg" alt="filmphotos"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+<!-- Project 2 -->
+<div class="project"> 
+<a href="dessin.html" class="project-link">
+<img src="images/dessin/1 (1).jpg" alt="dessin"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+<!-- Project 2 -->
+<div class="project">
+<a href="specimen.html" class="project-link">
+<img src="images/typography/typo/specimen/1 (7).jpg" alt="specimen"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+
+<!-- Project 2 -->
+<div class="project">
+<a href="volume.html" class="project-link">
+<img src="images/volume/1 (5).jpg" alt="volume"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+<!-- Project 2 -->
+<div class="project"> 
+<a href="video.html" class="project-link">
+<img src="images/video/1.JPG" alt="video"></a>
+<div class="project-info">
+<h3>Project Title 2</h3>
+<p>A brief description of Project 2.</p>
+
+</div>
+</div>
+
+
+<!-- Add more projects as needed -->
+</div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+<section class="contact">
+<div class="contact-info">
+<a href="fatemeh.asadnia55@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/sara-asadnia-3a346b297">LinkedIn</a>
+<a href="https://www.instagram.com/drahyas">Instagram</a>
+</div></section>
+
+<div>
+<p>&copy; 2024 Sara Asadnia | All Rights Reserved</p>
+</div>
+
+</footer>
+
 
 </body>
 </html>
