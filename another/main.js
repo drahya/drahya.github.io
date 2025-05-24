@@ -434,6 +434,144 @@ document.addEventListener("mousemove", (event) => {
   });
 });
 
+// Create a control panel
+const controlPanel = document.createElement("div");
+controlPanel.id = "control-panel";
+document.body.appendChild(controlPanel);
+
+// Add sliders to the control panel
+const controls = [
+  { label: "Opacity", min: 0, max: 1, step: 0.1, value: 1, onChange: (value) => updateStars("opacity", value) },
+  { label: "Size", min: 5, max: 50, step: 1, value: 20, onChange: (value) => updateStars("size", value) },
+  { label: "Rain Speed", min: 0, max: 10, step: 0.1, value: 2, onChange: (value) => updateRainSpeed(value) },
+  { label: "Chaos", min: 0, max: 10, step: 0.1, value: 1, onChange: (value) => updateChaos(value) },
+  { label: "Direction X", min: -10, max: 10, step: 0.1, value: 0, onChange: (value) => updateDirection("x", value) },
+  { label: "Direction Y", min: -10, max: 10, step: 0.1, value: 0, onChange: (value) => updateDirection("y", value) },
+  { label: "Color Speed", min: 0, max: 5, step: 0.1, value: 1, onChange: (value) => updateColorSpeed(value) },
+  { label: "Trail Length", min: 0, max: 1, step: 0.1, value: 0.8, onChange: (value) => updateTrailLength(value) },
+  { label: "Bounce", min: 0, max: 1, step: 0.1, value: 0, onChange: (value) => updateBounce(value) },
+  { label: "Star Count", min: 10, max: 200, step: 1, value: 50, onChange: (value) => updateStarCount(value) },
+];
+
+controls.forEach((control) => {
+  const wrapper = document.createElement("div");
+  wrapper.classList.add("control");
+
+  const label = document.createElement("label");
+  label.textContent = control.label;
+  wrapper.appendChild(label);
+
+  const slider = document.createElement("input");
+  slider.type = "range";
+  slider.min = control.min;
+  slider.max = control.max;
+  slider.step = control.step;
+  slider.value = control.value;
+  slider.addEventListener("input", (e) => control.onChange(parseFloat(e.target.value)));
+  wrapper.appendChild(slider);
+
+  controlPanel.appendChild(wrapper);
+});
+
+// Update functions for sliders
+function updateStars(property, value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    if (property === "opacity") {
+      star.style.opacity = value;
+    } else if (property === "size") {
+      star.style.width = `${value}px`;
+      star.style.height = `${value}px`;
+    }
+  });
+}
+
+function updateRainSpeed(value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    gsap.to(star, { y: `+=${value * 10}`, duration: 1, repeat: -1, ease: "none" });
+  });
+}
+
+function updateChaos(value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    gsap.to(star, { x: `+=${Math.random() * value * 10}`, y: `+=${Math.random() * value * 10}`, duration: 1, repeat: -1, ease: "none" });
+  });
+}
+
+function updateDirection(axis, value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    gsap.to(star, { [axis]: `+=${value * 10}`, duration: 1, repeat: -1, ease: "none" });
+  });
+}
+
+function updateColorSpeed(value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    gsap.to(star, { background: `hsl(${Math.random() * 360}, 100%, 50%)`, duration: value, repeat: -1, ease: "none" });
+  });
+}
+
+function updateTrailLength(value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    star.style.boxShadow = `0 0 ${value * 20}px rgba(255, 255, 255, ${value})`;
+  });
+}
+
+function updateBounce(value) {
+  const stars = document.querySelectorAll(".star");
+  stars.forEach((star) => {
+    gsap.to(star, { y: `+=${value * 100}`, yoyo: true, repeat: -1, ease: "power1.inOut" });
+  });
+}
+
+function updateStarCount(value) {
+  const starsContainer = document.getElementById("stars-container");
+  starsContainer.innerHTML = "";
+  for (let i = 0; i < value; i++) {
+    const star = document.createElement("div");
+    star.classList.add("star");
+    starsContainer.appendChild(star);
+
+    gsap.set(star, {
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+      scale: Math.random() * 0.5 + 0.5,
+    });
+
+    animateStar(star);
+  }
+}
+
+// Style for the control panel
+const controlStyle = document.createElement("style");
+controlStyle.textContent = `
+  #control-panel {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1000;
+    color: white;
+    font-family: "Astloch";
+  }
+  .control {
+    margin-bottom: 10px;
+  }
+  .control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .control input[type="range"] {
+    width: 100%;
+  }
+`;
+document.head.appendChild(controlStyle);
 
 
 
