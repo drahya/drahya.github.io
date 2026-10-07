@@ -260,60 +260,88 @@
     "published": true
   },
   {
-    "id": "bookcover",
+    "id": "revue",
     "title": {
-      "fr": "Couvertures de livres",
-      "en": "Book covers"
+      "fr": "Revue cinéma",
+      "en": "Cinema magazine"
     },
     "category": {
-      "fr": "Design éditorial",
+      "fr": "Édition",
       "en": "Editorial design"
     },
     "description": {
-      "fr": "Recherches de couvertures pour La Disparition de Georges Perec, un roman écrit sans la lettre « e », ainsi que pour Le Cercle des poètes disparus et Les Contes de Beedle le Barde.",
-      "en": "la disparition is a book without \"e\", i got inspired by the themes and the life of the writer, combining them all with my sense of curiousity and adventure, i went for something new and different for me.\n\nmy first book cover design project with personal choice of books."
+      "fr": "Conception de deux numéros d’une revue à collectionner, consacrés à Hannibal et House of the Dragon. Chaque numéro explore la série à travers ses acteurs, sa réalisation, ses thèmes, ses costumes, des entretiens et des critiques.",
+      "en": "full design of a cinema magazine that covers one series per number, going into details about the series, the actors, the director, themes , costumes, interviews with the actors and the director, and a review of the series etc... the magazines are designed to be collected and kept as a reference for the series. here you can see the two first numbers, the first one is about the series Hannibal, and the second one is about the series House of the dragon."
     },
     "images": [
       {
-        "src": "images/graphic design/book cover/disparition 3.jpg",
+        "src": "images/typography/REVUE CINEMA/2mocks.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 1",
-          "en": "Book covers — view 1"
+          "fr": "Revue cinéma — vue 1",
+          "en": "Cinema magazine — view 1"
         }
       },
       {
-        "src": "images/graphic design/book cover/disparition 2.jpg",
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/Free Floating Magazine PSD Mockup.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 2",
-          "en": "Book covers — view 2"
+          "fr": "Revue cinéma — vue 2",
+          "en": "Cinema magazine — view 2"
         }
       },
       {
-        "src": "images/graphic design/book cover/disparition 4.jpg",
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/Open-Booklet-A4-Magazine-Free-psd-Mockup.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 3",
-          "en": "Book covers — view 3"
+          "fr": "Revue cinéma — vue 3",
+          "en": "Cinema magazine — view 3"
         }
       },
       {
-        "src": "images/graphic design/book cover/disparition 1.jpg",
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/PSD_1.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 4",
-          "en": "Book covers — view 4"
+          "fr": "Revue cinéma — vue 4",
+          "en": "Cinema magazine — view 4"
         }
       },
       {
-        "src": "images/graphic design/book cover/1.jpg",
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/2.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 5",
-          "en": "Book covers — view 5"
+          "fr": "Revue cinéma — vue 5",
+          "en": "Cinema magazine — view 5"
         }
       },
       {
-        "src": "images/graphic design/book cover/2.jpg",
+        "src": "images/typography/REVUE CINEMA/mock hotd/Free Floating Magazine PSD Mockup.jpg",
         "alt": {
-          "fr": "Couvertures de livres — vue 6",
-          "en": "Book covers — view 6"
+          "fr": "Revue cinéma — vue 6",
+          "en": "Cinema magazine — view 6"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/Open-Booklet-A4-Magazine-Free-psd-Mockup.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 7",
+          "en": "Cinema magazine — view 7"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/1.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 8",
+          "en": "Cinema magazine — view 8"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/3.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 9",
+          "en": "Cinema magazine — view 9"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/2.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 10",
+          "en": "Cinema magazine — view 10"
         }
       }
     ],
