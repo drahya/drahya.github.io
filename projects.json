@@ -1,0 +1,1446 @@
+[
+  {
+    "id": "coffret",
+    "title": {
+      "fr": "Marc Riboud",
+      "en": "Marc Riboud"
+    },
+    "category": {
+      "fr": "Édition & packaging",
+      "en": "Editorial & packaging"
+    },
+    "description": {
+      "fr": "Un coffret consacré au travail de Marc Riboud : un livre de 324 pages au format A4, des affiches, des portraits dans des boîtes de pellicule, des porte-clés et un petit livre. La recherche sur son œuvre et sa vie a guidé la conception de cet ensemble.",
+      "en": "it's an editorial and packaging design to represent the artist of my choice's work and its connection to my graphic world. i did an extensive research on the artist's work and life, and created a visual identity that reflects the Riboud's work and my own style without touching the original work. the box includes a 324 pages book (A4), posters(A2, A5), film contaiers(portraits),keychains and a tiny book. the poster is a visual representation of the artist's work, and the tiny book is more of a personal touch on his work."
+    },
+    "images": [
+      {
+        "src": "images/graphic design/coffretartist/1 (9).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 1",
+          "en": "Marc Riboud — view 1"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (10).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 2",
+          "en": "Marc Riboud — view 2"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (1).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 3",
+          "en": "Marc Riboud — view 3"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (11).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 4",
+          "en": "Marc Riboud — view 4"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (12).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 5",
+          "en": "Marc Riboud — view 5"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (13).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 6",
+          "en": "Marc Riboud — view 6"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (14).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 7",
+          "en": "Marc Riboud — view 7"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (4).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 8",
+          "en": "Marc Riboud — view 8"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (3).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 9",
+          "en": "Marc Riboud — view 9"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (17).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 10",
+          "en": "Marc Riboud — view 10"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (16).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 11",
+          "en": "Marc Riboud — view 11"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (5).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 12",
+          "en": "Marc Riboud — view 12"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (6).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 13",
+          "en": "Marc Riboud — view 13"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (19).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 14",
+          "en": "Marc Riboud — view 14"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (7).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 15",
+          "en": "Marc Riboud — view 15"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (20).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 16",
+          "en": "Marc Riboud — view 16"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (18).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 17",
+          "en": "Marc Riboud — view 17"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (8).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 18",
+          "en": "Marc Riboud — view 18"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (21).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 19",
+          "en": "Marc Riboud — view 19"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (24).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 20",
+          "en": "Marc Riboud — view 20"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (32).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 21",
+          "en": "Marc Riboud — view 21"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (26).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 22",
+          "en": "Marc Riboud — view 22"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (22).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 23",
+          "en": "Marc Riboud — view 23"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (27).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 24",
+          "en": "Marc Riboud — view 24"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (23).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 25",
+          "en": "Marc Riboud — view 25"
+        }
+      },
+      {
+        "src": "images/graphic design/coffretartist/1 (25).jpg",
+        "alt": {
+          "fr": "Marc Riboud — vue 26",
+          "en": "Marc Riboud — view 26"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "revue",
+    "title": {
+      "fr": "Revue cinéma",
+      "en": "Cinema magazine"
+    },
+    "category": {
+      "fr": "Édition",
+      "en": "Editorial design"
+    },
+    "description": {
+      "fr": "Conception de deux numéros d’une revue à collectionner, consacrés à Hannibal et House of the Dragon. Chaque numéro explore la série à travers ses acteurs, sa réalisation, ses thèmes, ses costumes, des entretiens et des critiques.",
+      "en": "full design of a cinema magazine that covers one series per number, going into details about the series, the actors, the director, themes , costumes, interviews with the actors and the director, and a review of the series etc... the magazines are designed to be collected and kept as a reference for the series. here you can see the two first numbers, the first one is about the series Hannibal, and the second one is about the series House of the dragon."
+    },
+    "images": [
+      {
+        "src": "images/typography/REVUE CINEMA/2mocks.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 1",
+          "en": "Cinema magazine — view 1"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/Free Floating Magazine PSD Mockup.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 2",
+          "en": "Cinema magazine — view 2"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/Open-Booklet-A4-Magazine-Free-psd-Mockup.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 3",
+          "en": "Cinema magazine — view 3"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/PSD_1.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 4",
+          "en": "Cinema magazine — view 4"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mockups-hannibal/2.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 5",
+          "en": "Cinema magazine — view 5"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/Free Floating Magazine PSD Mockup.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 6",
+          "en": "Cinema magazine — view 6"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/Open-Booklet-A4-Magazine-Free-psd-Mockup.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 7",
+          "en": "Cinema magazine — view 7"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/1.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 8",
+          "en": "Cinema magazine — view 8"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/3.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 9",
+          "en": "Cinema magazine — view 9"
+        }
+      },
+      {
+        "src": "images/typography/REVUE CINEMA/mock hotd/2.jpg",
+        "alt": {
+          "fr": "Revue cinéma — vue 10",
+          "en": "Cinema magazine — view 10"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "bookcover",
+    "title": {
+      "fr": "Couvertures de livres",
+      "en": "Book covers"
+    },
+    "category": {
+      "fr": "Design éditorial",
+      "en": "Editorial design"
+    },
+    "description": {
+      "fr": "Recherches de couvertures pour La Disparition de Georges Perec, un roman écrit sans la lettre « e », ainsi que pour Le Cercle des poètes disparus et Les Contes de Beedle le Barde.",
+      "en": "la disparition is a book without \"e\", i got inspired by the themes and the life of the writer, combining them all with my sense of curiousity and adventure, i went for something new and different for me.\n\nmy first book cover design project with personal choice of books."
+    },
+    "images": [
+      {
+        "src": "images/graphic design/book cover/disparition 3.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 1",
+          "en": "Book covers — view 1"
+        }
+      },
+      {
+        "src": "images/graphic design/book cover/disparition 2.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 2",
+          "en": "Book covers — view 2"
+        }
+      },
+      {
+        "src": "images/graphic design/book cover/disparition 4.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 3",
+          "en": "Book covers — view 3"
+        }
+      },
+      {
+        "src": "images/graphic design/book cover/disparition 1.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 4",
+          "en": "Book covers — view 4"
+        }
+      },
+      {
+        "src": "images/graphic design/book cover/1.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 5",
+          "en": "Book covers — view 5"
+        }
+      },
+      {
+        "src": "images/graphic design/book cover/2.jpg",
+        "alt": {
+          "fr": "Couvertures de livres — vue 6",
+          "en": "Book covers — view 6"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "posters",
+    "title": {
+      "fr": "Affiches & typographie",
+      "en": "Posters & typography"
+    },
+    "category": {
+      "fr": "Design graphique",
+      "en": "Graphic design"
+    },
+    "description": {
+      "fr": "Affiches autour du mot persan « Gheyrat », qui évoque l’honneur et la protection de la famille, et les contraintes que cette notion peut imposer. La série comprend également des affiches réalisées par collage autour de Dark Matter et de l’Égypte.",
+      "en": "Gheyrat (in persian): the concept of honnor and protection towards family members that limits their lives and personal expression. digging deep into the concept and the word itself, i tried to show the meaning of the word and what it has brought us by the contemporary usage of it.\n\ncollage technique"
+    },
+    "images": [
+      {
+        "src": "images/graphic design/posters/GOLI1-4.jpg",
+        "alt": {
+          "fr": "Affiches & typographie — vue 1",
+          "en": "Posters & typography — view 1"
+        }
+      },
+      {
+        "src": "images/graphic design/posters/colier2.jpg",
+        "alt": {
+          "fr": "Affiches & typographie — vue 2",
+          "en": "Posters & typography — view 2"
+        }
+      },
+      {
+        "src": "images/graphic design/posters/shawl2.jpg",
+        "alt": {
+          "fr": "Affiches & typographie — vue 3",
+          "en": "Posters & typography — view 3"
+        }
+      },
+      {
+        "src": "images/graphic design/posters/egypt1.jpg",
+        "alt": {
+          "fr": "Affiches & typographie — vue 4",
+          "en": "Posters & typography — view 4"
+        }
+      },
+      {
+        "src": "images/graphic design/posters/matiere sombre1.jpg",
+        "alt": {
+          "fr": "Affiches & typographie — vue 5",
+          "en": "Posters & typography — view 5"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "specimen",
+    "title": {
+      "fr": "Spécimen typographique",
+      "en": "Type specimen"
+    },
+    "category": {
+      "fr": "Typographie",
+      "en": "Typography"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "images/typography/typo/specimen/1 (7).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 1",
+          "en": "Type specimen — view 1"
+        }
+      },
+      {
+        "src": "images/typography/typo/specimen/1 (2).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 2",
+          "en": "Type specimen — view 2"
+        }
+      },
+      {
+        "src": "images/typography/typo/specimen/1 (5).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 3",
+          "en": "Type specimen — view 3"
+        }
+      },
+      {
+        "src": "images/typography/typo/specimen/1 (8).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 4",
+          "en": "Type specimen — view 4"
+        }
+      },
+      {
+        "src": "images/typography/typo/specimen/1 (10).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 5",
+          "en": "Type specimen — view 5"
+        }
+      },
+      {
+        "src": "images/typography/typo/specimen/1 (1).jpg",
+        "alt": {
+          "fr": "Spécimen typographique — vue 6",
+          "en": "Type specimen — view 6"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "beforeafter",
+    "title": {
+      "fr": "After Before",
+      "en": "After Before"
+    },
+    "category": {
+      "fr": "Photographie expérimentale",
+      "en": "Experimental photography"
+    },
+    "description": {
+      "fr": "Un travail de sténopé, de photogramme et de photographie expérimentale réalisé à l’ESAD Amiens. Il explore l’avant et l’après, et la manière dont la prise de vue transforme la réalité d’une image.",
+      "en": "stenope and photograme combined with experminetal photography in esad amiens. it talk about the concept of before and after in photography and how we can change the reality of the image by changing the way we take the photo."
+    },
+    "images": [
+      {
+        "src": "images/photography/before after/1 (1).jpg",
+        "alt": {
+          "fr": "After Before — vue 1",
+          "en": "After Before — view 1"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (2).jpg",
+        "alt": {
+          "fr": "After Before — vue 2",
+          "en": "After Before — view 2"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (5).jpg",
+        "alt": {
+          "fr": "After Before — vue 3",
+          "en": "After Before — view 3"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (4).jpg",
+        "alt": {
+          "fr": "After Before — vue 4",
+          "en": "After Before — view 4"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (3).jpg",
+        "alt": {
+          "fr": "After Before — vue 5",
+          "en": "After Before — view 5"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (6).jpg",
+        "alt": {
+          "fr": "After Before — vue 6",
+          "en": "After Before — view 6"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (7).jpg",
+        "alt": {
+          "fr": "After Before — vue 7",
+          "en": "After Before — view 7"
+        }
+      },
+      {
+        "src": "images/photography/before after/2 (1).jpg",
+        "alt": {
+          "fr": "After Before — vue 8",
+          "en": "After Before — view 8"
+        }
+      },
+      {
+        "src": "images/photography/before after/1 (8).jpg",
+        "alt": {
+          "fr": "After Before — vue 9",
+          "en": "After Before — view 9"
+        }
+      },
+      {
+        "src": "images/photography/before after/2 (2).jpg",
+        "alt": {
+          "fr": "After Before — vue 10",
+          "en": "After Before — view 10"
+        }
+      },
+      {
+        "src": "images/photography/before after/3.jpg",
+        "alt": {
+          "fr": "After Before — vue 11",
+          "en": "After Before — view 11"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "indatable",
+    "title": {
+      "fr": "Indatable",
+      "en": "Indatable"
+    },
+    "category": {
+      "fr": "Photographie de mode",
+      "en": "Fashion photography"
+    },
+    "description": {
+      "fr": "Une séance photo autour de l’idée d’une image sans date, mêlant des silhouettes des années 1960 aux années 2000 et une approche contemporaine. Réalisée au studio de l’ESAD Amiens avec Linh Khan Thai, puis retouchée dans Lightroom et Photoshop.",
+      "en": "fashion photoshoot for the concept of something without a date. the idea was to create a photoshoot with the looks of 60s to 00s with a modern twist. the photoshoot was taken in the studio of esad amiens and the model is Linh khan thai also from the school. the photoshoot was taken with a digital camera and edited in lightroom and photoshop."
+    },
+    "images": [
+      {
+        "src": "images/photography/indatable/1 (1).jpg",
+        "alt": {
+          "fr": "Indatable — vue 1",
+          "en": "Indatable — view 1"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (2).jpg",
+        "alt": {
+          "fr": "Indatable — vue 2",
+          "en": "Indatable — view 2"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (3).jpg",
+        "alt": {
+          "fr": "Indatable — vue 3",
+          "en": "Indatable — view 3"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (4).jpg",
+        "alt": {
+          "fr": "Indatable — vue 4",
+          "en": "Indatable — view 4"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (5).jpg",
+        "alt": {
+          "fr": "Indatable — vue 5",
+          "en": "Indatable — view 5"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (6).jpg",
+        "alt": {
+          "fr": "Indatable — vue 6",
+          "en": "Indatable — view 6"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (7).jpg",
+        "alt": {
+          "fr": "Indatable — vue 7",
+          "en": "Indatable — view 7"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (8).jpg",
+        "alt": {
+          "fr": "Indatable — vue 8",
+          "en": "Indatable — view 8"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (10).jpg",
+        "alt": {
+          "fr": "Indatable — vue 9",
+          "en": "Indatable — view 9"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (11).jpg",
+        "alt": {
+          "fr": "Indatable — vue 10",
+          "en": "Indatable — view 10"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (12).jpg",
+        "alt": {
+          "fr": "Indatable — vue 11",
+          "en": "Indatable — view 11"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (13).jpg",
+        "alt": {
+          "fr": "Indatable — vue 12",
+          "en": "Indatable — view 12"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (14).jpg",
+        "alt": {
+          "fr": "Indatable — vue 13",
+          "en": "Indatable — view 13"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (15).jpg",
+        "alt": {
+          "fr": "Indatable — vue 14",
+          "en": "Indatable — view 14"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (16).jpg",
+        "alt": {
+          "fr": "Indatable — vue 15",
+          "en": "Indatable — view 15"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (17).jpg",
+        "alt": {
+          "fr": "Indatable — vue 16",
+          "en": "Indatable — view 16"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (18).jpg",
+        "alt": {
+          "fr": "Indatable — vue 17",
+          "en": "Indatable — view 17"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (20).jpg",
+        "alt": {
+          "fr": "Indatable — vue 18",
+          "en": "Indatable — view 18"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (21).jpg",
+        "alt": {
+          "fr": "Indatable — vue 19",
+          "en": "Indatable — view 19"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (22).jpg",
+        "alt": {
+          "fr": "Indatable — vue 20",
+          "en": "Indatable — view 20"
+        }
+      },
+      {
+        "src": "images/photography/indatable/1 (23).jpg",
+        "alt": {
+          "fr": "Indatable — vue 21",
+          "en": "Indatable — view 21"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "branly",
+    "title": {
+      "fr": "Lycée Édouard Branly",
+      "en": "Lycée Édouard Branly"
+    },
+    "category": {
+      "fr": "Photographie",
+      "en": "Photography"
+    },
+    "description": {
+      "fr": "Une série réalisée à Amiens en 2024 avec un filtre créé directement sur l’appareil photo. Les photographies n’ont pas été retouchées.",
+      "en": "digital manual photography one filter that i created on the camera. No editing was done on the photos."
+    },
+    "images": [
+      {
+        "src": "images/photography/branly/1 (5).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 1",
+          "en": "Lycée Édouard Branly — view 1"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (8).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 2",
+          "en": "Lycée Édouard Branly — view 2"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (9).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 3",
+          "en": "Lycée Édouard Branly — view 3"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (20).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 4",
+          "en": "Lycée Édouard Branly — view 4"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (6).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 5",
+          "en": "Lycée Édouard Branly — view 5"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (4).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 6",
+          "en": "Lycée Édouard Branly — view 6"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (10).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 7",
+          "en": "Lycée Édouard Branly — view 7"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (7).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 8",
+          "en": "Lycée Édouard Branly — view 8"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (15).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 9",
+          "en": "Lycée Édouard Branly — view 9"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (14).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 10",
+          "en": "Lycée Édouard Branly — view 10"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (18).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 11",
+          "en": "Lycée Édouard Branly — view 11"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (12).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 12",
+          "en": "Lycée Édouard Branly — view 12"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (13).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 13",
+          "en": "Lycée Édouard Branly — view 13"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (11).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 14",
+          "en": "Lycée Édouard Branly — view 14"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (17).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 15",
+          "en": "Lycée Édouard Branly — view 15"
+        }
+      },
+      {
+        "src": "images/photography/branly/1 (16).JPG",
+        "alt": {
+          "fr": "Lycée Édouard Branly — vue 16",
+          "en": "Lycée Édouard Branly — view 16"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "filmphotos",
+    "title": {
+      "fr": "Photographie argentique",
+      "en": "Film photography"
+    },
+    "category": {
+      "fr": "Photographie",
+      "en": "Photography"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "images/photography/last film photos/1 (43).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 1",
+          "en": "Film photography — view 1"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (42).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 2",
+          "en": "Film photography — view 2"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (30).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 3",
+          "en": "Film photography — view 3"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (34).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 4",
+          "en": "Film photography — view 4"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (26).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 5",
+          "en": "Film photography — view 5"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (1).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 6",
+          "en": "Film photography — view 6"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (13).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 7",
+          "en": "Film photography — view 7"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (14).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 8",
+          "en": "Film photography — view 8"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (17).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 9",
+          "en": "Film photography — view 9"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (5).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 10",
+          "en": "Film photography — view 10"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (3).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 11",
+          "en": "Film photography — view 11"
+        }
+      },
+      {
+        "src": "images/photography/last film photos/1 (4).jpg",
+        "alt": {
+          "fr": "Photographie argentique — vue 12",
+          "en": "Film photography — view 12"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "personal-photos",
+    "title": {
+      "fr": "Paris, novembre 2024",
+      "en": "Paris, November 2024"
+    },
+    "category": {
+      "fr": "Photographie",
+      "en": "Photography"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "images/photography/paris 16-17nov/1 (1).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 1",
+          "en": "Paris, November 2024 — view 1"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (2).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 2",
+          "en": "Paris, November 2024 — view 2"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (3).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 3",
+          "en": "Paris, November 2024 — view 3"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (4).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 4",
+          "en": "Paris, November 2024 — view 4"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (5).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 5",
+          "en": "Paris, November 2024 — view 5"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (6).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 6",
+          "en": "Paris, November 2024 — view 6"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (7).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 7",
+          "en": "Paris, November 2024 — view 7"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (8).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 8",
+          "en": "Paris, November 2024 — view 8"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (9).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 9",
+          "en": "Paris, November 2024 — view 9"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (10).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 10",
+          "en": "Paris, November 2024 — view 10"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (11).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 11",
+          "en": "Paris, November 2024 — view 11"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (12).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 12",
+          "en": "Paris, November 2024 — view 12"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (13).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 13",
+          "en": "Paris, November 2024 — view 13"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (14).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 14",
+          "en": "Paris, November 2024 — view 14"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (15).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 15",
+          "en": "Paris, November 2024 — view 15"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (16).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 16",
+          "en": "Paris, November 2024 — view 16"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (17).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 17",
+          "en": "Paris, November 2024 — view 17"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (18).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 18",
+          "en": "Paris, November 2024 — view 18"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (19).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 19",
+          "en": "Paris, November 2024 — view 19"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (20).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 20",
+          "en": "Paris, November 2024 — view 20"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (21).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 21",
+          "en": "Paris, November 2024 — view 21"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (22).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 22",
+          "en": "Paris, November 2024 — view 22"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (23).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 23",
+          "en": "Paris, November 2024 — view 23"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (24).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 24",
+          "en": "Paris, November 2024 — view 24"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (25).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 25",
+          "en": "Paris, November 2024 — view 25"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (26).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 26",
+          "en": "Paris, November 2024 — view 26"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (29).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 27",
+          "en": "Paris, November 2024 — view 27"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (30).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 28",
+          "en": "Paris, November 2024 — view 28"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (31).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 29",
+          "en": "Paris, November 2024 — view 29"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (32).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 30",
+          "en": "Paris, November 2024 — view 30"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (33).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 31",
+          "en": "Paris, November 2024 — view 31"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (34).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 32",
+          "en": "Paris, November 2024 — view 32"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (35).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 33",
+          "en": "Paris, November 2024 — view 33"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/1 (36).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 34",
+          "en": "Paris, November 2024 — view 34"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/2 (2).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 35",
+          "en": "Paris, November 2024 — view 35"
+        }
+      },
+      {
+        "src": "images/photography/paris 16-17nov/2 (1).jpg",
+        "alt": {
+          "fr": "Paris, novembre 2024 — vue 36",
+          "en": "Paris, November 2024 — view 36"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "dessin",
+    "title": {
+      "fr": "Dessins & peintures",
+      "en": "Drawings & paintings"
+    },
+    "category": {
+      "fr": "Arts plastiques",
+      "en": "Fine art"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "images/dessin/1 (1).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 1",
+          "en": "Drawings & paintings — view 1"
+        }
+      },
+      {
+        "src": "images/dessin/1 (9).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 2",
+          "en": "Drawings & paintings — view 2"
+        }
+      },
+      {
+        "src": "images/dessin/1 (18).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 3",
+          "en": "Drawings & paintings — view 3"
+        }
+      },
+      {
+        "src": "images/dessin/1 (13).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 4",
+          "en": "Drawings & paintings — view 4"
+        }
+      },
+      {
+        "src": "images/dessin/1 (23).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 5",
+          "en": "Drawings & paintings — view 5"
+        }
+      },
+      {
+        "src": "images/dessin/1 (20).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 6",
+          "en": "Drawings & paintings — view 6"
+        }
+      },
+      {
+        "src": "images/dessin/1 (6).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 7",
+          "en": "Drawings & paintings — view 7"
+        }
+      },
+      {
+        "src": "images/dessin/alligator/1 (1).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 8",
+          "en": "Drawings & paintings — view 8"
+        }
+      },
+      {
+        "src": "images/dessin/alligator/1 (2).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 9",
+          "en": "Drawings & paintings — view 9"
+        }
+      },
+      {
+        "src": "images/dessin/alligator/1 (3).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 10",
+          "en": "Drawings & paintings — view 10"
+        }
+      },
+      {
+        "src": "images/dessin/alligator/1 (4).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 11",
+          "en": "Drawings & paintings — view 11"
+        }
+      },
+      {
+        "src": "images/dessin/alligator/1 (5).jpg",
+        "alt": {
+          "fr": "Dessins & peintures — vue 12",
+          "en": "Drawings & paintings — view 12"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "volume",
+    "title": {
+      "fr": "Recherches en volume",
+      "en": "Studies in volume"
+    },
+    "category": {
+      "fr": "Volume",
+      "en": "Sculpture"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [
+      {
+        "src": "images/volume/1 (4).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 1",
+          "en": "Studies in volume — view 1"
+        }
+      },
+      {
+        "src": "images/volume/1 (5).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 2",
+          "en": "Studies in volume — view 2"
+        }
+      },
+      {
+        "src": "images/volume/1 (8).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 3",
+          "en": "Studies in volume — view 3"
+        }
+      },
+      {
+        "src": "images/volume/1 (2).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 4",
+          "en": "Studies in volume — view 4"
+        }
+      },
+      {
+        "src": "images/volume/1 (3).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 5",
+          "en": "Studies in volume — view 5"
+        }
+      },
+      {
+        "src": "images/volume/1 (1).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 6",
+          "en": "Studies in volume — view 6"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (17).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 7",
+          "en": "Studies in volume — view 7"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (7).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 8",
+          "en": "Studies in volume — view 8"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (15).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 9",
+          "en": "Studies in volume — view 9"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (16).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 10",
+          "en": "Studies in volume — view 10"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (13).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 11",
+          "en": "Studies in volume — view 11"
+        }
+      },
+      {
+        "src": "images/volume/pyramid/1 (4).jpg",
+        "alt": {
+          "fr": "Recherches en volume — vue 12",
+          "en": "Studies in volume — view 12"
+        }
+      }
+    ],
+    "published": true
+  },
+  {
+    "id": "video",
+    "title": {
+      "fr": "Vidéo",
+      "en": "Video"
+    },
+    "category": {
+      "fr": "Audiovisuel",
+      "en": "Moving image"
+    },
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "images": [],
+    "published": false
+  }
+]
