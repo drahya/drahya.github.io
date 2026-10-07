@@ -350,55 +350,56 @@
   {
     "id": "posters",
     "title": {
-      "fr": "Affiches & typographie",
-      "en": "Posters & typography"
+      "fr": "Affiches",
+      "en": "Posters"
     },
     "category": {
-      "fr": "Design graphique",
-      "en": "Graphic design"
+      "fr": "Poster",
+      "en": "Poster"
     },
     "description": {
-      "fr": "Affiches autour du mot persan « Gheyrat », qui évoque l’honneur et la protection de la famille, et les contraintes que cette notion peut imposer. La série comprend également des affiches réalisées par collage autour de Dark Matter et de l’Égypte.",
-      "en": "Gheyrat (in persian): the concept of honnor and protection towards family members that limits their lives and personal expression. digging deep into the concept and the word itself, i tried to show the meaning of the word and what it has brought us by the contemporary usage of it.\n\ncollage technique"
+      "fr": "",
+      "en": ""
     },
     "images": [
       {
-        "src": "images/graphic design/posters/GOLI1-4.jpg",
+        "src": "uploads/dea812df-d62e-4bc3-8c13-bb1a97f6988b.png",
         "alt": {
-          "fr": "Affiches & typographie — vue 1",
-          "en": "Posters & typography — view 1"
+          "fr": "AFFICHES MCA- Le Lac des cygnes",
+          "en": ""
         }
       },
       {
-        "src": "images/graphic design/posters/colier2.jpg",
+        "src": "uploads/860b551e-cc0a-4cdb-8397-3b43662362c9.jpg",
         "alt": {
-          "fr": "Affiches & typographie — vue 2",
-          "en": "Posters & typography — view 2"
+          "fr": "AFFICHES MCA- Madame Bovary",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/9f0e3047-de2c-4949-a0fd-5dbd4e3a6c99.jpg",
+        "alt": {
+          "fr": "AFFICHES MCA- Thérèse et Isabelle",
+          "en": ""
+        }
+      },
+      {
+        "src": "images/graphic design/posters/GOLI1-4.jpg",
+        "alt": {
+          "fr": "Affiches autour du mot persan « Gheyrat », qui évoque l’honneur et la protection de la famille, et les contraintes que cette notion peut imposer.",
+          "en": "Posters & typography — view 1"
         }
       },
       {
         "src": "images/graphic design/posters/shawl2.jpg",
         "alt": {
-          "fr": "Affiches & typographie — vue 3",
+          "fr": "Affiches \"gheyrat\"",
           "en": "Posters & typography — view 3"
-        }
-      },
-      {
-        "src": "images/graphic design/posters/egypt1.jpg",
-        "alt": {
-          "fr": "Affiches & typographie — vue 4",
-          "en": "Posters & typography — view 4"
-        }
-      },
-      {
-        "src": "images/graphic design/posters/matiere sombre1.jpg",
-        "alt": {
-          "fr": "Affiches & typographie — vue 5",
-          "en": "Posters & typography — view 5"
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "poster"
   },
   {
     "id": "specimen",
