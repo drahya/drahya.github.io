@@ -6,8 +6,8 @@
       "en": "Marc Riboud"
     },
     "category": {
-      "fr": "Édition & packaging",
-      "en": "Editorial & packaging"
+      "fr": "Édition",
+      "en": "Editorial"
     },
     "description": {
       "fr": "Un coffret consacré au travail de Marc Riboud : un livre de 324 pages au format A4, des affiches, des portraits dans des boîtes de pellicule, des porte-clés et un petit livre. La recherche sur son œuvre et sa vie a guidé la conception de cet ensemble.",
@@ -197,7 +197,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "revue",
@@ -207,7 +208,7 @@
     },
     "category": {
       "fr": "Édition",
-      "en": "Editorial design"
+      "en": "Editorial"
     },
     "description": {
       "fr": "Conception de deux numéros d’une revue à collectionner, consacrés à Hannibal et House of the Dragon. Chaque numéro explore la série à travers ses acteurs, sa réalisation, ses thèmes, ses costumes, des entretiens et des critiques.",
@@ -285,7 +286,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "bookcover",
@@ -294,8 +296,8 @@
       "en": "Book covers"
     },
     "category": {
-      "fr": "Design éditorial",
-      "en": "Editorial design"
+      "fr": "Édition",
+      "en": "Editorial"
     },
     "description": {
       "fr": "Recherches de couvertures pour La Disparition de Georges Perec, un roman écrit sans la lettre « e », ainsi que pour Le Cercle des poètes disparus et Les Contes de Beedle le Barde.",
@@ -345,7 +347,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "posters",
@@ -354,8 +357,8 @@
       "en": "Posters & typography"
     },
     "category": {
-      "fr": "Design graphique",
-      "en": "Graphic design"
+      "fr": "Poster",
+      "en": "Poster"
     },
     "description": {
       "fr": "Affiches autour du mot persan « Gheyrat », qui évoque l’honneur et la protection de la famille, et les contraintes que cette notion peut imposer. La série comprend également des affiches réalisées par collage autour de Dark Matter et de l’Égypte.",
@@ -398,7 +401,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "poster"
   },
   {
     "id": "specimen",
@@ -407,8 +411,8 @@
       "en": "Type specimen"
     },
     "category": {
-      "fr": "Typographie",
-      "en": "Typography"
+      "fr": "Édition",
+      "en": "Editorial"
     },
     "description": {
       "fr": "",
@@ -458,7 +462,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "beforeafter",
@@ -467,8 +472,8 @@
       "en": "After Before"
     },
     "category": {
-      "fr": "Photographie expérimentale",
-      "en": "Experimental photography"
+      "fr": "Photographie",
+      "en": "Photography"
     },
     "description": {
       "fr": "Un travail de sténopé, de photogramme et de photographie expérimentale réalisé à l’ESAD Amiens. Il explore l’avant et l’après, et la manière dont la prise de vue transforme la réalité d’une image.",
@@ -553,7 +558,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "indatable",
@@ -562,8 +568,8 @@
       "en": "Indatable"
     },
     "category": {
-      "fr": "Photographie de mode",
-      "en": "Fashion photography"
+      "fr": "Photographie",
+      "en": "Photography"
     },
     "description": {
       "fr": "Une séance photo autour de l’idée d’une image sans date, mêlant des silhouettes des années 1960 aux années 2000 et une approche contemporaine. Réalisée au studio de l’ESAD Amiens avec Linh Khan Thai, puis retouchée dans Lightroom et Photoshop.",
@@ -718,7 +724,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "branly",
@@ -848,7 +855,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "filmphotos",
@@ -950,7 +958,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "personal-photos",
@@ -1220,7 +1229,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "dessin",
@@ -1229,7 +1239,7 @@
       "en": "Drawings & paintings"
     },
     "category": {
-      "fr": "Arts plastiques",
+      "fr": "Art plastique",
       "en": "Fine art"
     },
     "description": {
@@ -1322,7 +1332,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "art-plastique"
   },
   {
     "id": "volume",
@@ -1331,8 +1342,8 @@
       "en": "Studies in volume"
     },
     "category": {
-      "fr": "Volume",
-      "en": "Sculpture"
+      "fr": "Art plastique",
+      "en": "Fine art"
     },
     "description": {
       "fr": "",
@@ -1424,7 +1435,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "art-plastique"
   },
   {
     "id": "video",
@@ -1433,14 +1445,15 @@
       "en": "Video"
     },
     "category": {
-      "fr": "Audiovisuel",
-      "en": "Moving image"
+      "fr": "Art plastique",
+      "en": "Fine art"
     },
     "description": {
       "fr": "",
       "en": ""
     },
     "images": [],
-    "published": false
+    "published": false,
+    "categoryId": "art-plastique"
   }
 ]
