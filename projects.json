@@ -66,8 +66,8 @@
       "en": "Marc Riboud"
     },
     "category": {
-      "fr": "Édition & packaging",
-      "en": "Editorial & packaging"
+      "fr": "Édition",
+      "en": "Editorial"
     },
     "description": {
       "fr": "Un coffret consacré au travail de Marc Riboud : un livre de 324 pages au format A4, des affiches, des portraits dans des boîtes de pellicule, des porte-clés et un petit livre. La recherche sur son œuvre et sa vie a guidé la conception de cet ensemble.",
@@ -257,7 +257,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "posters",
