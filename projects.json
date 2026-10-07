@@ -66,8 +66,8 @@
       "en": "Marc Riboud"
     },
     "category": {
-      "fr": "Édition",
-      "en": "Editorial"
+      "fr": "Édition & packaging",
+      "en": "Editorial & packaging"
     },
     "description": {
       "fr": "Un coffret consacré au travail de Marc Riboud : un livre de 324 pages au format A4, des affiches, des portraits dans des boîtes de pellicule, des porte-clés et un petit livre. La recherche sur son œuvre et sa vie a guidé la conception de cet ensemble.",
@@ -257,8 +257,7 @@
         }
       }
     ],
-    "published": true,
-    "categoryId": "edition"
+    "published": true
   },
   {
     "id": "posters",
@@ -313,66 +312,6 @@
     ],
     "published": true,
     "categoryId": "poster"
-  },
-  {
-    "id": "specimen",
-    "title": {
-      "fr": "Spécimen typographique",
-      "en": "Type specimen"
-    },
-    "category": {
-      "fr": "Typographie",
-      "en": "Typography"
-    },
-    "description": {
-      "fr": "",
-      "en": ""
-    },
-    "images": [
-      {
-        "src": "images/typography/typo/specimen/1 (7).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 1",
-          "en": "Type specimen — view 1"
-        }
-      },
-      {
-        "src": "images/typography/typo/specimen/1 (2).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 2",
-          "en": "Type specimen — view 2"
-        }
-      },
-      {
-        "src": "images/typography/typo/specimen/1 (5).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 3",
-          "en": "Type specimen — view 3"
-        }
-      },
-      {
-        "src": "images/typography/typo/specimen/1 (8).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 4",
-          "en": "Type specimen — view 4"
-        }
-      },
-      {
-        "src": "images/typography/typo/specimen/1 (10).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 5",
-          "en": "Type specimen — view 5"
-        }
-      },
-      {
-        "src": "images/typography/typo/specimen/1 (1).jpg",
-        "alt": {
-          "fr": "Spécimen typographique — vue 6",
-          "en": "Type specimen — view 6"
-        }
-      }
-    ],
-    "published": true
   },
   {
     "id": "beforeafter",
