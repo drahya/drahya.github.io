@@ -1,5 +1,94 @@
 [
   {
+    "id": "projet-bf3e9637-48d2-406d-93dc-940622e5f335",
+    "title": {
+      "fr": "French design awards",
+      "en": "French design awards"
+    },
+    "categoryId": "identite-visuelle",
+    "category": {
+      "fr": "Identité visuelle",
+      "en": "Visual identity"
+    },
+    "description": {
+      "fr": "Conception d’une identité visuelle pour un festival consacré\naux pratiques contemporaines du design graphique,\nde la typographie et du design d’objet.\nLe projet repose sur la construction d’un système typographique\ndirectionnel fondé sur l’interaction entre logotype\ncompact, axe diagonal et champs colorés modulaires.\nL’identité articule lisibilité institutionnelle et tension graphique,\nen s’inscrivant dans une tradition moderniste tout\nen introduisant un jeu de superpositions et de dynamiques\ncontemporaines.",
+      "en": "Design of a visual identity for a festival dedicated to contemporary practices in graphic design, typography, and product design.\n\nThe project is based on the construction of a directional typographic system founded on the interaction between a compact logo, a diagonal axis, and modular color fields.\n\nThe identity articulates institutional legibility and graphic tension, drawing on a modernist tradition while introducing a play of superimpositions and contemporary dynamics."
+    },
+    "images": [
+      {
+        "src": "uploads/c5e8e947-77f7-491a-b02d-1eaef9f1f08b.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/3e3e1946-1f04-432e-9f4e-27603997e423.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/d5801dd0-06dd-4ac5-a732-c494e8a6f1d5.png",
+        "alt": {
+          "fr": "Un même système graphique adapté à différents types de contenu : identité générale, programmation et conférence.",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/eb96a957-40db-416d-a286-6c2bb8a97767.png",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/e165df75-6d7c-4197-9c76-af65445f639e.jpg",
+        "alt": {
+          "fr": "Support editorial",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/5e434978-f4df-4fbb-83b7-5b0c90fed43f.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/fab6d712-33e0-464d-99df-a772da4b11d5.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/29b872b7-82ee-4bb2-967b-60ce9536b030.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/5b26c5f6-c482-4772-a610-cafab82a89a0.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/99c46b10-0c6f-4f79-a86a-46b089704782.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      }
+    ],
+    "published": true
+  },
+  {
     "id": "projet-a705ebe4-7f24-40ae-b94a-7612ff268830",
     "title": {
       "fr": "La complainte des orchidées",
