@@ -1,5 +1,94 @@
 [
   {
+    "id": "projet-72b7cb8d-eb51-4c13-9c96-831ee0614ce7",
+    "title": {
+      "fr": "Edda Organic",
+      "en": "Edda Organic"
+    },
+    "categoryId": "edition",
+    "category": {
+      "fr": "Édition",
+      "en": "Editorial"
+    },
+    "description": {
+      "fr": "Edda Organic est une réinterprétation contemporaine de la police Edda Solid (Heinz Keune, 1900), issue du mouvement Art nouveau.\nLe projet consiste à conserver lʼénergie organique et ornementale de la version originale tout en en simplifiant la structure. Le contraste a été réduit, les formes rationalisées et les empattements épaissis afin dʼaméliorer la lisibilité et dʼélargir les possibilités dʼusage.\nLʼobjectif nʼétait pas de reproduire un style historique, mais dʼen extraire une logique formelle capable de fonctionner dans un contexte éditorial contemporain. Edda Organic se situe ainsi entre héritage typographique et réinterprétation structurelle.",
+      "en": "Edda Organic is a contemporary reinterpretation of the Edda Solid typeface (Heinz Keune, 1900), which originated in the Art Nouveau movement.\n\nThe project aimed to preserve the organic and ornamental energy of the original version while simplifying its structure. Contrast was reduced, forms streamlined, and serifs thickened to improve legibility and broaden its range of uses.\n\nThe goal was not to reproduce a historical style, but to extract a formal logic capable of functioning within a contemporary publishing context. Edda Organic thus exists at the intersection of typographic heritage and structural reinterpretation."
+    },
+    "images": [
+      {
+        "src": "uploads/e0b73bf7-e2f2-4974-bdc7-cb67efe44d94.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/27673c31-84b5-4c3f-9928-09837be61b66.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/dd39730a-3935-4a71-b5e8-a43bd4020f1e.jpg",
+        "alt": {
+          "fr": "Un enjeu central du projet a été la création des minuscules, absentes de la version originale. Elles ont été développées selon une logique végétale : souples, modulées, mais cohérentes avec la structure des capitales.",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/34bc8920-6ba6-4d6a-8f28-1338d451b19b.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/d8a9ab3a-e8c2-420b-aca2-ac67b9412353.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/09efc2e5-3cfb-4525-b48a-1e82eafad329.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/5dddf700-fa07-4ce2-8355-4ba35e5415fd.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/c7be52ad-3ee4-42ad-ba57-64d2fc27e60e.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/12fd3bfd-8fa7-4d36-ad9e-3d8acc135e8c.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/b7e96b09-4bb4-4fc7-a405-f0b30d2e1224.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      }
+    ],
+    "published": true
+  },
+  {
     "id": "projet-74754741-5880-4eec-9038-7e12b903d5de",
     "title": {
       "fr": "In the flesh",
