@@ -572,7 +572,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "identite-visuelle"
   },
   {
     "id": "coffret",
@@ -772,7 +773,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "edition"
   },
   {
     "id": "posters",
@@ -921,7 +923,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "indatable",
@@ -1086,7 +1089,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "branly",
@@ -1216,7 +1220,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "filmphotos",
@@ -1318,7 +1323,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "personal-photos",
@@ -1588,7 +1594,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "photographie"
   },
   {
     "id": "dessin",
@@ -1690,7 +1697,8 @@
         }
       }
     ],
-    "published": true
+    "published": true,
+    "categoryId": "art-plastique"
   },
   {
     "id": "video",
@@ -1707,6 +1715,7 @@
       "en": ""
     },
     "images": [],
-    "published": false
+    "published": false,
+    "categoryId": "art-plastique"
   }
 ]
