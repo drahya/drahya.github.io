@@ -1,5 +1,157 @@
 [
   {
+    "id": "projet-dbe0737a-2874-4a15-8b4a-43280b709273",
+    "title": {
+      "fr": "19 Jours",
+      "en": "19 Days"
+    },
+    "categoryId": "edition",
+    "category": {
+      "fr": "Édition",
+      "en": "Editorial"
+    },
+    "description": {
+      "fr": "19 jours est une édition construite autour dʼune temporalité précise : dix-neuf jours\ndʼattente avant de retrouver un être aimé vivant ailleurs.\nLe projet explore la manière dont lʼattente transforme le sentiment amoureux en état\nobsessionnel. Le temps devient circulaire, répétitif, presque mental.\nLes photographies argentiques dialoguent avec des fragments poétiques en persan,\nfrançais et anglais. La superposition des langues traduit le débordement intérieur et\nla difficulté à formuler le manque.",
+      "en": "19 Days is an edition built around a precise timeframe: nineteen days\nof waiting before being reunited with a loved one living elsewhere.\nThe project explores how waiting transforms romantic feelings into an\nobsessive state. Time becomes circular, repetitive, almost mental.\nThe silver gelatin photographs converse with poetic fragments in Persian,\nFrench, and English. The layering of languages ​​conveys the inner turmoil and\nthe difficulty in articulating the longing."
+    },
+    "images": [
+      {
+        "src": "uploads/d7cb28dd-c311-454d-abe6-ced2f5040858.jpg",
+        "alt": {
+          "fr": "Lʼédition conserve une dimension intime, proche du journal personnel. La couverture florale agit comme une surface douce et décorative, en contraste avec la tension interne du contenu. Le livre devient un espace dʼattente matérialisé, où chaque page correspond à une journée traversée.",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/1cfdf348-dd7f-4c66-9499-624fdfcadd5f.jpg",
+        "alt": {
+          "fr": "La construction graphique repose sur la répétition et lʼaccumulation. Les chiffres (1 à 19) structurent la progression du livre, tandis que les gestes graphiques, les couches typographiques et les interférences visuelles évoquent lʼencombrement mental. Lʼimage et le texte ne sʼillustrent pas mutuellement : ils se traversent, se brouillent, se répondent.",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/da0fed5b-83a4-434c-bf78-f547bba4e44d.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/c27b32ae-a853-4ed4-a6ff-0103afb5afa5.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/6c3b33f8-76a7-4002-908e-c01f109096b1.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/15bba543-0c27-466a-a274-0cb837a54493.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/0effb210-4b0f-4a4f-a401-87edeed29d44.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/b9952002-8704-49d0-809d-cc657bc99a30.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/78682962-bbe7-4e9d-854b-65e6afa7e7e2.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/41f9c314-5c88-4cb5-9a1d-873b7571a1ac.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/6c553255-1abb-4e00-8a55-9eb4ab88e0d0.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/5dcc4492-b81d-4c43-bd5e-3498eca0c389.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/b86377c1-8696-4147-9802-15337e56faa9.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/a0245030-36d8-4655-a1dd-87854fe7aeb2.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/b3611fe0-eb42-49a4-a478-bda4760a8d2d.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/3302e5a2-b874-41a4-aa45-ac7319acd2c6.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/5fad6061-3e3c-4bac-955b-32a9956b394d.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/f7382df8-41c4-4de4-8405-70a26dd64be1.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/ba6e5f22-c52e-42e2-9f39-fb7633995552.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      }
+    ],
+    "published": true
+  },
+  {
     "id": "projet-ad6a9fa3-69f5-42cc-8afe-ef830c6c3b4a",
     "title": {
       "fr": "Flux",
