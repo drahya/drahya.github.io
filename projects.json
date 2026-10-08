@@ -1,5 +1,122 @@
 [
   {
+    "id": "projet-74754741-5880-4eec-9038-7e12b903d5de",
+    "title": {
+      "fr": "In the flesh",
+      "en": "In the flesh"
+    },
+    "categoryId": "edition",
+    "category": {
+      "fr": "Édition",
+      "en": "Editorial"
+    },
+    "description": {
+      "fr": "In the Flesh interroge le corps comme surface dʼinscription et comme archive vivante.\nÀ travers un corpus dʼimages liées aux pratiques de modifications corporelles le projet considère ces gestes comme des formes de langage visuel. Lʼédition ne cherche pas à illustrer un discours mais à construire un dispositif de lecture. La sélection, la séquence et la mise en relation des images organisent une progression :\nde lʼorigine symbolique à lʼinscription individuelle, puis à la trace.\nLes choix typographiques et chromatiques sont volontairement limités afin dʼinstaurer un cadre stable, proche du document.\nCette retenue formelle permet dʼobserver les images sans hiérarchie spectaculaire. Le projet se situe ainsi entre archive, recherche visuelle et construction éditoriale.",
+      "en": "In the Flesh explores the body as a surface of inscription and as a living archive.\n\nThrough a corpus of images related to body modification practices, the project considers these gestures as forms of visual language. The publication does not seek to illustrate a discourse but rather to construct a reading device. The selection, sequencing, and interrelation of the images organize a progression:\n\nfrom symbolic origin to individual inscription, and then to the trace.\nThe typographic and chromatic choices are deliberately limited in order to establish a stable framework, akin to a document.\nThis formal restraint allows the images to be observed without a dramatic hierarchy. The project thus lies at the intersection of archive, visual research, and editorial construction."
+    },
+    "images": [
+      {
+        "src": "uploads/f120a6ec-3bab-47ad-aa60-c3941454adbf.jpg",
+        "alt": {
+          "fr": "Le livre devient lui-même surface marquée. Brûlures contrôlées, altérations du papier et reliure apparente prolongent la réflexion sur le corps comme support dʼinscription. La matérialité nʼest pas un effet plastique mais un outil de signification.",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/c76dc11e-69e7-42e3-84c4-cadf41f8385b.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/8ca453b3-0212-43c6-a33f-906e8def54dd.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/8fb4534c-ee5d-4882-8f37-0fdeecddf1a0.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/7ce8a230-0740-4241-b32b-0867df8b455f.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/38b344cf-8063-48be-ab1c-264cc4b9a932.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/e2aa7def-d69f-4cde-8c49-363b97062598.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/b17d9b28-313a-475d-b0be-e8960759640a.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/dbc2184d-71e6-46bf-8c58-c1dae5f03cf8.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/bead27dd-0306-4e34-9487-d0f10844c5ae.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/c8e7a106-65da-4c30-8ed9-dd94d3295171.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/e056658b-2b51-41f4-af45-5f56715728f7.jpg",
+        "alt": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/d73215ff-ccd9-409d-a038-cff94facca9a.jpg",
+        "alt": {
+          "fr": "marque-page recto",
+          "en": ""
+        }
+      },
+      {
+        "src": "uploads/319b6932-9e5a-4dfd-84be-461569537da4.jpg",
+        "alt": {
+          "fr": "marque-page verso",
+          "en": ""
+        }
+      }
+    ],
+    "published": true
+  },
+  {
     "id": "projet-dbe0737a-2874-4a15-8b4a-43280b709273",
     "title": {
       "fr": "19 Jours",
