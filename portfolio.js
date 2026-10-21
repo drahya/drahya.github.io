@@ -20,6 +20,23 @@ function render(){const filters=document.getElementById('category-filters');if(f
    managerLink.style.cssText='display:inline-block;margin:16px 0;padding:8px 0;font-size:13px;text-decoration:underline;text-underline-offset:4px;opacity:.7';
    footer.append(managerLink);
  }
+ // Fiverr service link next to contact details.
+ const contactFooter=document.querySelector('footer');
+ if(contactFooter&&!contactFooter.querySelector('.fiverr-cta')){
+  const cta=node('div','fiverr-cta');
+  const fiverr=node('a','fiverr-link','Commander sur Fiverr ↗');
+  fiverr.href='https://www.fiverr.com/s/qbbrWAl';
+  fiverr.target='_blank';
+  fiverr.rel='noopener noreferrer';
+  fiverr.dataset.fr='Commander sur Fiverr ↗';
+  fiverr.dataset.en='Hire me on Fiverr ↗';
+  cta.append(fiverr);
+  const email=contactFooter.querySelector('.email-line, .contact-email');
+  const bottom=contactFooter.querySelector('.footer-bottom');
+  if(email)email.insertAdjacentElement('afterend',cta);
+  else if(bottom)bottom.before(cta);
+  else contactFooter.append(cta);
+ }
  document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>language(b.dataset.language)));language(lang);
  fetch('projects.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{if(!Array.isArray(data))throw Error();records=data;render()}).catch(()=>{/* Server-rendered project links and images remain usable. */});
  const dialog=node('dialog','lightbox');dialog.setAttribute('aria-label','Galerie / Gallery');const close=node('button','close');close.type='button';close.textContent='Fermer / Close';const image=node('img'),controls=node('div','lightbox-controls'),prev=node('button','', 'Précédent / Previous'),counter=node('span'),next=node('button','','Suivant / Next');prev.type=next.type='button';controls.append(prev,counter,next);dialog.append(close,image,controls);document.body.append(dialog);let current=0,images=[],opener=null;function show(){image.src=images[current].src;image.alt=images[current].alt;counter.textContent=(current+1)+' / '+images.length;prev.disabled=next.disabled=images.length<2}function move(n){current=(current+n+images.length)%images.length;show()}
