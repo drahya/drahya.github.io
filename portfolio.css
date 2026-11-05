@@ -17,3 +17,6 @@
 .fiverr-cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:28px}
 .fiverr-link{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:13px 19px;background:#fff;color:#141414;border:1px solid #fff;font-size:13px;font-weight:700;letter-spacing:.035em;text-transform:uppercase;text-decoration:none;transition:background-color .18s,color .18s,border-color .18s}
 .fiverr-link:hover,.fiverr-link:focus-visible{background:var(--blue);border-color:var(--blue);color:#fff}
+
+/* The project manager is private and must not appear on public pages. */
+a[href="manage.html"],a[href$="/manage.html"]{display:none!important}
