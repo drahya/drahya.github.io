@@ -1,0 +1,67 @@
+name: Optimize portfolio images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/optimize-portfolio-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Pillow
+        run: python -m pip install --quiet Pillow
+      - name: Compress large images without changing their URLs
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageFile
+          import io
+          Image.MAX_IMAGE_PIXELS = 120_000_000
+          ImageFile.LOAD_TRUNCATED_IMAGES = False
+          count = original = final = 0
+          for path in Path('.').rglob('*'):
+              if not path.is_file() or '.git' in path.parts or path.suffix.lower() not in {'.jpg', '.jpeg', '.png'}:
+                  continue
+              before = path.stat().st_size
+              if before < 250_000:
+                  continue
+              try:
+                  with Image.open(path) as source:
+                      source.load()
+                      image = ImageOps.exif_transpose(source)
+                      if image.width > 2800 or image.height > 2800:
+                          image.thumbnail((2800, 2800), Image.Resampling.LANCZOS)
+                      output = io.BytesIO()
+                      if path.suffix.lower() in {'.jpg', '.jpeg'}:
+                          if image.mode not in ('RGB', 'L'):
+                              image = image.convert('RGB')
+                          image.save(output, format='JPEG', quality=86, optimize=True, progressive=True, subsampling=0)
+                      else:
+                          image.save(output, format='PNG', optimize=True, compress_level=9)
+                      data = output.getvalue()
+                      if len(data) < before * 0.95:
+                          path.write_bytes(data)
+                          count += 1
+                          original += before
+                          final += len(data)
+              except Exception as error:
+                  print(f'Skipped {path}: {error}')
+          print(f'Optimized {count} images: {original / 1048576:.1f} MiB -> {final / 1048576:.1f} MiB')
+          PY
+      - name: Commit optimized images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.jpg' '*.jpeg' '*.JPG' '*.JPEG' '*.png' '*.PNG'
+          if ! git diff --cached --quiet; then
+            git commit -m "Compress oversized portfolio images for faster loading"
+            git push
+          fi
