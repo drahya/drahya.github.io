@@ -779,16 +779,16 @@
   {
     "id": "posters",
     "title": {
-      "fr": "Affiches",
-      "en": "Posters"
+      "fr": "Affiches MCA",
+      "en": "Posters for MCA"
     },
     "category": {
       "fr": "Poster",
       "en": "Poster"
     },
     "description": {
-      "fr": "",
-      "en": ""
+      "fr": "Série d’affiches culturelles développées autour de différentes oeuvres et spectacles. Chaque proposition part d’une lecture spécifique du contenu tout en explorant des langages graphiques distincts.\n\nPour Le Lac des cygnes, je suis partie de la réécriture contemporaine\nde Preljocaj. Le ballet est très codifié, mais cette version le déplace\nvers une énergie plus actuelle. J’ai utilisé des couleurs fortes, des\ncontrastes nets et une typographie électrique.\n\nMadame Bovary: La répétition du mot « encore » devient progressivement instable ettraduit l’insatisfaction et l’enfermement du personnage.\n\nThérèse et Isabelle: Image effacée, couleur intense et déchirure évoquent la censure et la représentation du désir dans le texte de Violette Leduc.",
+      "en": "A series of cultural posters developed for various works and performances. Each concept stems from a specific interpretation of the content, while exploring distinct graphic languages.\n\nFor *Swan Lake*, I drew inspiration from Preljocaj’s contemporary reimagining. While the ballet is highly codified, this version shifts it toward a more modern energy. I employed bold colors, sharp contrasts, and electric typography.\n\n*Madame Bovary*: The repetition of the word \"encore\" (\"again/more\") gradually becomes unstable, reflecting the character’s deep-seated dissatisfaction and sense of confinement.\n\n*Thérèse et Isabelle*: A faded image, intense color, and a tear in the surface evoke the themes of censorship and the representation of desire found in Violette Leduc’s text."
     },
     "images": [
       {
@@ -810,20 +810,6 @@
         "alt": {
           "fr": "AFFICHES MCA- Thérèse et Isabelle",
           "en": ""
-        }
-      },
-      {
-        "src": "images/graphic design/posters/GOLI1-4.jpg",
-        "alt": {
-          "fr": "Affiches autour du mot persan « Gheyrat », qui évoque l’honneur et la protection de la famille, et les contraintes que cette notion peut imposer.",
-          "en": "Posters & typography — view 1"
-        }
-      },
-      {
-        "src": "images/graphic design/posters/shawl2.jpg",
-        "alt": {
-          "fr": "Affiches \"gheyrat\"",
-          "en": "Posters & typography — view 3"
         }
       }
     ],
