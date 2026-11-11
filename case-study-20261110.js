@@ -95,3 +95,46 @@
  observer.observe(overlay.querySelector('.overlay-inner'),{childList:true,subtree:true});
  makeFocusable();
 })();
+
+/* AUTO-FIT PROJECT ARTWORK — 2026-11-11 */
+(()=>{
+  'use strict';
+  const gallery=document.getElementById('overlay-gallery');
+  if(!gallery)return;
+  const seen=new WeakSet();
+  let queued=false;
+  const portrait=figure=>{
+    const image=figure.querySelector('img');
+    return !!(image && image.naturalWidth>0 && image.naturalHeight>0 &&
+      image.naturalWidth/image.naturalHeight<0.96);
+  };
+  function layout(){
+    queued=false;
+    const figures=[...gallery.querySelectorAll(':scope > figure')];
+    for(const figure of figures) {
+      figure.classList.remove('adaptive-pair','adaptive-solo','adaptive-portrait','adaptive-landscape');
+      figure.classList.add(portrait(figure)?'adaptive-portrait':'adaptive-landscape','adaptive-solo');
+      const img=figure.querySelector('img');
+      if(img&&!seen.has(img)){
+        seen.add(img);
+        img.addEventListener('load',schedule,{once:true});
+        img.addEventListener('error',schedule,{once:true});
+      }
+    }
+    for(let i=0;i<figures.length-1;i++){
+      if(portrait(figures[i])&&portrait(figures[i+1])){
+        figures[i].classList.replace('adaptive-solo','adaptive-pair');
+        figures[i+1].classList.replace('adaptive-solo','adaptive-pair');
+        i++;
+      }
+    }
+  }
+  function schedule(){
+    if(queued)return;
+    queued=true;
+    requestAnimationFrame(layout);
+  }
+  const observer=new MutationObserver(schedule);
+  observer.observe(gallery,{childList:true,subtree:true});
+  schedule();
+})();
