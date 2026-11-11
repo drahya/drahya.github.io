@@ -139,3 +139,20 @@ body.case-study-page .lightbox img {max-height:calc(100dvh - 150px);}
  body.case-study-page .project-intro h1 {font-size:clamp(43px,12vw,68px);}
  body.case-study-page .project-intro p {font-size:15px;}
 }
+
+/* CASE STUDY ROUTE LINKS — 2026-11-11 */
+body.case-study-page .project-route-nav {
+  display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap;
+  border-top:1px solid #766b76; padding-top:25px; margin:clamp(50px,6vw,90px) 0 25px;
+}
+body.case-study-page .project-route-nav a {
+  display:block; flex:1 1 230px; border:1px solid #968c94;
+  padding:17px 19px; text-transform:uppercase; 
+  font:12px/1.55 'Courier New',monospace; color:#f3eff1;
+}
+body.case-study-page .project-route-nav a:last-child {text-align:right;}
+body.case-study-page .project-route-nav a:hover {background:#dcfb62; border-color:#dcfb62; color:#171519;}
+@media(max-width:650px) {
+ body.case-study-page .project-route-nav {gap:10px;}
+ body.case-study-page .project-route-nav a {flex-basis:100%; text-align:left!important; padding:13px 16px;}
+}
