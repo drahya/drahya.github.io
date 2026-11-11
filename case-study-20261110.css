@@ -125,3 +125,58 @@ html[lang="en"] .overlay-gallery::before { content:"02 / GALLERY — VISUALS & A
  #portfolio-image-viewer .viewer-close { margin-right:13px; padding:10px 12px; }
 }
 @media(prefers-reduced-motion:reduce) { .overlay-gallery figure img { transition:none; } }
+
+/* ADAPTIVE EDITORIAL GALLERY — 2026-11-11 */
+/* A gallery box takes its dimensions from its original artwork, never vice versa.
+   Each image is fully visible without opening the optional zoom viewer. */
+.overlay .overlay-hero {
+  display:flex; align-items:center; justify-content:center;
+  height:auto; min-height:0; max-height:none; aspect-ratio:auto;
+  padding:clamp(15px,2.5vw,34px); overflow:visible;
+}
+.overlay .overlay-hero img {
+  display:block; width:auto; height:auto; max-width:100%;
+  max-height:min(76svh,840px); padding:0; object-fit:contain;
+}
+.overlay .overlay-gallery {
+  grid-template-columns:repeat(12,minmax(0,1fr));
+  align-items:start; grid-auto-flow:row;
+}
+.overlay .overlay-gallery figure,
+.overlay .overlay-gallery figure:nth-of-type(n),
+.overlay .overlay-gallery figure:first-child:last-child {
+  display:flex; align-items:center; justify-content:center;
+  box-sizing:border-box; grid-column:1/-1; width:100%;
+  aspect-ratio:auto; min-height:0; height:auto; max-height:none;
+  padding:clamp(12px,2vw,28px); overflow:visible; margin:0;
+}
+.overlay .overlay-gallery figure.adaptive-pair,
+.overlay .overlay-gallery figure:nth-of-type(n).adaptive-pair {
+  grid-column:span 6;
+}
+.overlay .overlay-gallery figure img {
+  display:block; width:auto; height:auto; max-width:100%;
+  max-height:min(76svh,840px); padding:0; object-fit:contain;
+  transition:none;
+}
+.overlay .overlay-gallery figure:hover img {transform:none;}
+.overlay .overlay-gallery figure.adaptive-solo.adaptive-portrait img {
+  max-width:min(100%,620px);
+}
+.overlay .overlay-gallery figure.adaptive-pair img {
+  max-height:min(74svh,780px);
+}
+.overlay .overlay-gallery figure.adaptive-solo.adaptive-landscape img {
+  max-height:min(78svh,880px);
+}
+@media(max-width:700px) {
+  .overlay .overlay-gallery {grid-template-columns:1fr;}
+  .overlay .overlay-gallery figure.adaptive-pair,
+  .overlay .overlay-gallery figure:nth-of-type(n).adaptive-pair {grid-column:1;}
+  .overlay .overlay-hero img,
+  .overlay .overlay-gallery figure img {
+    max-height: min(74svh,700px);
+  }
+  .overlay .overlay-gallery figure,
+  .overlay .overlay-gallery figure:nth-of-type(n) {padding:12px;}
+}
