@@ -20,3 +20,122 @@
 
 /* The project manager is private and must not appear on public pages. */
 a[href="manage.html"],a[href$="/manage.html"]{display:none!important}
+
+/* UNIFIED ADAPTIVE PROJECT PAGES — 2026-11-11 */
+/* Scoped to individual case studies; the public homepage and local editor
+   keep their own existing design rules. */
+body.case-study-page {background:#171519; color:#f3eff1; font-family:Arial,Helvetica,sans-serif;}
+body.case-study-page header {
+  max-width:none; background:#171519; border-color:#625863;
+  padding:22px clamp(18px,4.5vw,76px);
+}
+body.case-study-page .brand {font-weight:900; text-transform:uppercase;}
+body.case-study-page .brand span {color:#ff6ca4; font-weight:400; text-transform:none;}
+body.case-study-page nav a:hover {color:#ff6ca4;}
+body.case-study-page .language button {color:#f3eff1;}
+body.case-study-page .language button[aria-pressed="true"] {
+  border-color:#dcfb62; color:#dcfb62;
+}
+body.case-study-page main.project-page {
+  box-sizing:border-box; padding:28px clamp(18px,4.5vw,76px) 100px;
+  max-width:1450px; margin:0 auto;
+}
+body.case-study-page .project-page .back {
+  font:11px/1.5 'Courier New',monospace; text-transform:uppercase;
+  letter-spacing:.02em; text-decoration:none;
+  display:inline-flex; padding:8px 0; border-bottom:1px solid #887d85;
+}
+body.case-study-page .project-page .back:hover {color:#dcfb62; border-color:#dcfb62;}
+body.case-study-page .project-intro {
+  display:grid; grid-template-columns:minmax(0,1.15fr) minmax(290px,.85fr);
+  grid-template-areas:"category category" "title title" "art description";
+  gap:clamp(18px,2.5vw,36px) clamp(28px,5vw,90px);
+  align-items:start; padding:clamp(32px,4.5vw,60px) 0 60px;
+}
+body.case-study-page .project-intro .eyebrow {
+  grid-area:category; grid-column:auto; font:11px/1.5 'Courier New',monospace;
+  letter-spacing:.04em; color:#dcfb62; text-transform:uppercase;
+}
+body.case-study-page .project-intro h1 {
+  grid-area:title; font:900 clamp(52px,7.8vw,118px)/.94 'Arial Black',Impact,Arial,sans-serif;
+  text-transform:uppercase; letter-spacing:-.083em; margin:0; color:#f3eff1;
+}
+body.case-study-page .project-intro p {
+  grid-area:description; font:clamp(15px,1.2vw,18px)/1.68 Arial,Helvetica,sans-serif;
+  color:#ddd4db; max-width:54ch; margin:0; white-space:pre-line;
+}
+body.case-study-page .project-intro .project-intro-art {
+  grid-area:art; width:100%; max-width:100%; height:auto; max-height:none;
+  min-height:0; background:#28242b; padding:clamp(13px,2.25vw,28px);
+  display:flex; align-items:center; justify-content:center;
+  overflow:visible; border:0;
+}
+body.case-study-page .project-intro .project-intro-art img {
+  display:block; width:auto; height:auto; max-width:100%;
+  max-height:min(76svh,840px); object-fit:contain;
+}
+body.case-study-page .project-gallery {
+  box-sizing:border-box; max-width:none; width:100%;
+  display:grid; grid-template-columns:repeat(12,minmax(0,1fr));
+  gap:clamp(14px,2vw,26px); align-items:start; margin:0 auto;
+}
+body.case-study-page .project-gallery:not(:empty)::before {
+  content:"02 / GALERIE — VISUELS & APPLICATIONS";
+  display:block; grid-column:1/-1; border-top:1px solid #776c78;
+  padding-top:17px; margin-bottom:10px; color:#dcfb62;
+  font:11px/1.5 'Courier New',monospace;
+}
+html[lang="en"] body.case-study-page .project-gallery:not(:empty)::before {
+  content:"02 / GALLERY — VISUALS & APPLICATIONS";
+}
+body.case-study-page .project-gallery .gallery-item,
+body.case-study-page .project-gallery .gallery-item:first-child {
+  box-sizing:border-box; grid-column:1/-1; min-height:0; width:100%;
+  height:auto; max-height:none; aspect-ratio:auto; overflow:visible;
+  display:flex; align-items:center; justify-content:center;
+  margin:0; padding:clamp(13px,2.1vw,28px); background:#28242b; border:0;
+}
+body.case-study-page .project-gallery .gallery-item.adaptive-pair {
+  grid-column:span 6;
+}
+body.case-study-page .project-gallery .gallery-item img {
+  width:auto; height:auto; max-width:100%; max-height:min(76svh,840px);
+  object-fit:contain; display:block; transition:none;
+}
+body.case-study-page .project-gallery .gallery-item.adaptive-solo.adaptive-portrait img {
+  max-width:min(100%,620px);
+}
+body.case-study-page .project-gallery .gallery-item.adaptive-pair img {
+  max-height:min(74svh,780px);
+}
+body.case-study-page footer {
+  background:#211e24; color:#f3eff1; border-top:1px solid #706773;
+  padding:32px clamp(18px,4.5vw,76px);
+}
+body.case-study-page footer .fiverr-link {background:#dcfb62; border-color:#dcfb62;color:#171519;}
+body.case-study-page .lightbox {background:#100e12;}
+body.case-study-page .lightbox img {max-height:calc(100dvh - 150px);}
+@media(max-width:900px) {
+ body.case-study-page .project-intro {
+   grid-template-columns:1fr; grid-template-areas:"category" "title" "art" "description";
+   gap:22px; padding-bottom:44px;
+ }
+ body.case-study-page .project-intro p {max-width:70ch;}
+ body.case-study-page .project-intro h1 {font-size:clamp(49px,10vw,85px);}
+}
+@media(max-width:650px) {
+ body.case-study-page header {padding:18px;}
+ body.case-study-page main.project-page {padding:22px 18px 75px;}
+ body.case-study-page .project-gallery {grid-template-columns:1fr;}
+ body.case-study-page .project-gallery .gallery-item.adaptive-pair,
+ body.case-study-page .project-gallery .gallery-item:first-child.adaptive-pair {
+   grid-column:1;
+ }
+ body.case-study-page .project-gallery .gallery-item,
+ body.case-study-page .project-gallery .gallery-item:first-child {grid-column:1; padding:12px;}
+ body.case-study-page .project-gallery .gallery-item img,
+ body.case-study-page .project-intro .project-intro-art img {max-height:min(74svh,700px);}
+ body.case-study-page .project-intro {gap:19px;}
+ body.case-study-page .project-intro h1 {font-size:clamp(43px,12vw,68px);}
+ body.case-study-page .project-intro p {font-size:15px;}
+}
