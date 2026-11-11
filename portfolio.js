@@ -7,8 +7,72 @@ const text=(v)=>typeof v==='string'?v:(v?.[lang]||v?.fr||v?.en||'');
 const validSrc=s=>typeof s==='string'&&!/^(?:[a-z]+:|\/\/|\/)/i.test(s)&&!s.split('/').includes('..');
 function language(next){lang=next;document.documentElement.lang=lang;try{localStorage.setItem('portfolio-language',lang)}catch{}document.querySelectorAll('[data-fr][data-en]').forEach(e=>e.textContent=e.dataset[lang]);document.querySelectorAll('a[href="mailto:fatemeh.asadnia55@gmail.com"]').forEach(a=>{a.href='mailto:sara.asadnia01@gmail.com';if(a.textContent.includes('@'))a.textContent='sara.asadnia01@gmail.com'});
  document.querySelectorAll('[data-language]').forEach(e=>e.setAttribute('aria-pressed',String(e.dataset.language===lang)));if(records.length)render();document.dispatchEvent(new CustomEvent('portfolio-language',{detail:lang}));}
+/* ADAPTIVE STANDALONE PROJECT LAYOUT — 2026-11-11 */
+if(document.querySelector('main.project-page[data-project-id]')){
+  document.body.classList.add('case-study-page');
+}
+function adaptCaseStudy(){
+  const main=document.querySelector('main.project-page[data-project-id]');
+  if(!main)return;
+  const intro=main.querySelector('.project-intro');
+  const gallery=main.querySelector('#project-gallery');
+  if(!intro||!gallery)return;
+  const oldCover=intro.querySelector('.project-intro-art');
+  if(oldCover)oldCover.remove();
+  const first=gallery.querySelector(':scope > .gallery-item');
+  if(first){
+    first.classList.add('project-intro-art');
+    intro.append(first);
+  }
+  const figures=[...gallery.querySelectorAll(':scope > .gallery-item')];
+  const portrait=button=>{
+    const im=button.querySelector('img');
+    return !!(im&&im.naturalWidth>0&&im.naturalHeight>0&&im.naturalWidth/im.naturalHeight<0.96);
+  };
+  const arrange=()=>{
+    for(const button of figures){
+      button.classList.remove('adaptive-pair','adaptive-solo','adaptive-portrait','adaptive-landscape');
+      button.classList.add(portrait(button)?'adaptive-portrait':'adaptive-landscape','adaptive-solo');
+    }
+    for(let i=0;i<figures.length-1;i++){
+      if(portrait(figures[i])&&portrait(figures[i+1])){
+        figures[i].classList.replace('adaptive-solo','adaptive-pair');
+        figures[i+1].classList.replace('adaptive-solo','adaptive-pair');
+        i++;
+      }
+    }
+  };
+  for(const button of figures){
+    const im=button.querySelector('img');
+    if(im && (!im.complete||!im.naturalWidth)){
+      im.addEventListener('load',arrange,{once:true});
+    }
+  }
+  arrange();
+  // Keep a consistent previous / next navigation on standalone project pages.
+  const published=records.filter(p=>p.published&&p.images?.length);
+  const here=published.findIndex(p=>p.id===main.dataset.projectId);
+  let route=main.querySelector('.project-route-nav');
+  if(!route){route=node('nav','project-route-nav');route.setAttribute('aria-label','Navigation projets / Project navigation');
+    const back=main.querySelector('.end-back');
+    if(back)back.before(route);else main.append(route);
+  }
+  route.replaceChildren();
+  if(here>=0&&published.length>1){
+    const link=(record,label)=>{
+      const a=node('a','',label+' '+text(record.title));
+      a.href=encodeURIComponent(record.id)+'.html?lang='+lang;
+      return a;
+    };
+    const previous=published[(here-1+published.length)%published.length];
+    const next=published[(here+1)%published.length];
+    route.append(link(previous,lang==='fr'?'← PRÉCÉDENT :':'← PREVIOUS:'),
+      link(next,lang==='fr'?'SUIVANT :':'NEXT:'));
+  }
+}
+
 function render(){const filters=document.getElementById('category-filters');if(filters){filters.replaceChildren();for(const c of [{id:'selected',fr:'Sélection',en:'Selected'},{id:'all',fr:'Tous les projets',en:'All work'},...categories]){const b=node('button','category-filter',text(c));b.type='button';b.setAttribute('aria-pressed',String(selectedCategory===c.id));b.addEventListener('click',()=>{selectedCategory=c.id;render()});filters.append(b)}}const grid=document.getElementById('projects');if(grid){grid.replaceChildren();records.filter(p=>p.published&&p.images?.length&&(selectedCategory==='all'||(selectedCategory==='selected'?featuredIds.includes(p.id):p.categoryId===selectedCategory))).sort((a,b)=>selectedCategory==='selected'?featuredIds.indexOf(a.id)-featuredIds.indexOf(b.id):0).forEach((p,i)=>{const a=node('a','project-card');a.href=encodeURIComponent(p.id)+'.html?lang='+lang;const cover=node('div','cover'),im=node('img');if(validSrc(p.images[0].src))im.src=p.images[0].src;im.alt=text(p.images[0].alt)||text(p.title);im.loading=i<2?'eager':'lazy';im.decoding='async';cover.append(im);const meta=node('div','card-meta');meta.append(node('h3','',text(p.title)),node('span','project-number',String(i+1).padStart(2,'0')),node('p','',text(p.category)));a.append(cover,meta);grid.append(a)});document.getElementById('project-count').textContent=String(grid.children.length).padStart(2,'0');const empty=document.getElementById('category-empty');if(empty){empty.hidden=grid.children.length>0;empty.textContent=lang==='fr'?'Aucun projet dans cette catégorie pour le moment.':'No projects in this category yet.'}}
- const main=document.querySelector('[data-project-id]');if(main){const p=records.find(p=>p.id===main.dataset.projectId);if(!p){main.replaceChildren(node('h1','',lang==='fr'?'Ce projet a été retiré du portfolio.':'This project has been removed from the portfolio.'));const back=node('a','back',lang==='fr'?'Voir les projets':'View projects');back.href='index.html#work';main.append(back);return;}document.title=text(p.title)+' — Sara Asadnia';document.getElementById('project-title').textContent=text(p.title);document.getElementById('project-category').textContent=text(p.category);document.getElementById('project-description').textContent=text(p.description);const gallery=document.getElementById('project-gallery');gallery.replaceChildren();p.images.forEach((im,i)=>{const b=node('button','gallery-item');b.type='button';b.setAttribute('aria-label',text(im.alt)||text(p.title));const img=node('img');if(validSrc(im.src))img.src=im.src;img.alt=text(im.alt)||text(p.title);img.loading=i===0?'eager':'lazy';img.decoding='async';b.append(img);gallery.append(b)})}}
+ const main=document.querySelector('[data-project-id]');if(main){const p=records.find(p=>p.id===main.dataset.projectId);if(!p){main.replaceChildren(node('h1','',lang==='fr'?'Ce projet a été retiré du portfolio.':'This project has been removed from the portfolio.'));const back=node('a','back',lang==='fr'?'Voir les projets':'View projects');back.href='index.html#work';main.append(back);return;}document.title=text(p.title)+' — Sara Asadnia';document.getElementById('project-title').textContent=text(p.title);document.getElementById('project-category').textContent=text(p.category);document.getElementById('project-description').textContent=text(p.description);const gallery=document.getElementById('project-gallery');gallery.replaceChildren();p.images.forEach((im,i)=>{const b=node('button','gallery-item');b.type='button';b.setAttribute('aria-label',text(im.alt)||text(p.title));const img=node('img');if(validSrc(im.src))img.src=im.src;img.alt=text(im.alt)||text(p.title);img.loading=i===0?'eager':'lazy';img.decoding='async';b.append(img);gallery.append(b)});adaptCaseStudy()}}
  document.querySelectorAll('a[href="mailto:fatemeh.asadnia55@gmail.com"]').forEach(a=>{a.href='mailto:sara.asadnia01@gmail.com';if(a.textContent.includes('@'))a.textContent='sara.asadnia01@gmail.com'});
  // The local-only editor is not linked from public pages.
  document.querySelectorAll('a[href="manage.html"],a[href$="/manage.html"]').forEach(a=>a.remove());
@@ -29,7 +93,7 @@ function render(){const filters=document.getElementById('category-filters');if(f
   else if(bottom)bottom.before(cta);
   else contactFooter.append(cta);
  }
- document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>language(b.dataset.language)));language(lang);
+ document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>language(b.dataset.language)));language(lang);adaptCaseStudy();
  fetch('projects.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{if(!Array.isArray(data))throw Error();records=data;render()}).catch(()=>{/* Server-rendered project links and images remain usable. */});
  const dialog=node('dialog','lightbox');dialog.setAttribute('aria-label','Galerie / Gallery');const close=node('button','close');close.type='button';close.textContent='Fermer / Close';const image=node('img'),controls=node('div','lightbox-controls'),prev=node('button','', 'Précédent / Previous'),counter=node('span'),next=node('button','','Suivant / Next');prev.type=next.type='button';controls.append(prev,counter,next);dialog.append(close,image,controls);document.body.append(dialog);let current=0,images=[],opener=null;function show(){image.src=images[current].src;image.alt=images[current].alt;counter.textContent=(current+1)+' / '+images.length;prev.disabled=next.disabled=images.length<2}function move(n){current=(current+n+images.length)%images.length;show()}
  document.addEventListener('click',e=>{const b=e.target.closest?.('.gallery-item');if(!b)return;images=[...document.querySelectorAll('.gallery-item img')];current=images.indexOf(b.querySelector('img'));opener=b;show();dialog.showModal();document.body.style.overflow='hidden';close.focus()});close.addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{document.body.style.overflow='';opener?.focus()});dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});prev.addEventListener('click',()=>move(-1));next.addEventListener('click',()=>move(1));dialog.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}if(e.key==='ArrowRight'){e.preventDefault();move(1)}});
